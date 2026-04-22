@@ -3,6 +3,7 @@ layout: landing
 permalink: /camping/
 title: Nahwärme auf Campingplätzen — messbar effizient
 description: Energieoptimierung für Campingplätze und Freizeitparks — Nahwärmenetze, PV-Eigenverbrauch, Lastspitzen. Langjährige Referenzen an der Ostsee.
+breadcrumb: Camping
 ---
 
 <section class="landing-hero">
@@ -82,6 +83,7 @@ description: Energieoptimierung für Campingplätze und Freizeitparks — Nahwä
   <div class="container">
     <h2>Einstieg: Quick-Check Energie</h2>
     <p class="section-lede">2–3 Tage vor Ort, temporäre Messung zentraler Energieflüsse, Ergebnisbericht mit drei konkreten Sofortmaßnahmen. Festpreis, klar umrissen — der Weg, um ohne großes Risiko anzufangen.</p>
+    <p>Einen Überblick über das gesamte Leistungsspektrum — von Energieaudit und BAFA-Antrag bis zu Gebäudeautomation und SPS-Programmierung — finden Sie unter <a href="/#leistungen">Leistungen</a>.</p>
   </div>
 </section>
 

@@ -3,10 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <meta name="theme-color" content="{{ site.data.site.theme_color }}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="{{ site.data.site.apple_touch_icon }}">
 <link rel="stylesheet" href="/assets/css/style.css">
 {% seo %}
 {% include structured-data.html %}
+<script type="speculationrules">
+{
+  "prerender": [{
+    "where": { "and": [
+      { "href_matches": "/*" },
+      { "not": { "href_matches": "/*.xml" } },
+      { "not": { "href_matches": "/*.txt" } }
+    ]},
+    "eagerness": "moderate"
+  }]
+}
+</script>
 </head>

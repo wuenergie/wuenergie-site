@@ -36,15 +36,23 @@ social_description: >-
   Energieberatung & Anlagentechnik aus einer Hand: Messen, analysieren,
   optimieren — für Mittelstand, Kommunen und Betreiber energieintensiver Objekte.
 
-# Leistungsgebiete — nur für JSON-LD, nicht fürs Rendering
+# Leistungsgebiete — nur für JSON-LD (knowsAbout + hasOfferCatalog), nicht fürs Rendering.
+# `name` landet in knowsAbout; `beschreibung` in der OfferCatalog-Service-Entität.
 leistungen:
-  - Energieberatung
-  - Energieaudit DIN EN 16247
-  - Gebäudeautomation nach §71a GEG
-  - SPS-Programmierung
-  - Schaltschrankbau
-  - Monitoring und Datenintegration
-  - BAFA-Antragsbegleitung
+  - name: Energieberatung
+    beschreibung: Strategische Begleitung von Mittelstand, Kommunen und Betreibern — von der Ist-Aufnahme bis zur Maßnahmenplanung.
+  - name: Energieaudit DIN EN 16247
+    beschreibung: Normkonformes Audit inklusive Lastganganalyse, Wirtschaftlichkeitsrechnung und Berichterstellung.
+  - name: Gebäudeautomation nach §71a GEG
+    beschreibung: Nachrüstung großer Nichtwohngebäude mit Mess-, Steuer- und Regelungstechnik — gesetzeskonform und wirtschaftlich.
+  - name: SPS-Programmierung
+    beschreibung: Individuelle Steuerungen für Heiz-, Lüftungs- und Energiezentralen — inklusive Inbetriebnahme vor Ort.
+  - name: Schaltschrankbau
+    beschreibung: Planung und Ausführung von Schaltanlagen für Energiezentralen, Nahwärmenetze und Automationsaufgaben.
+  - name: Monitoring und Datenintegration
+    beschreibung: Erfassung und Visualisierung von Verbrauchs- und Erzeugungsdaten aus PV, BHKW, Wärmepumpe oder Biomasse.
+  - name: BAFA-Antragsbegleitung
+    beschreibung: Fördermittel-Beratung und Antragstellung für EBN/EEW und verwandte Programme.
 
 qualifikationen:
   - name: Deutsches Energieberaternetzwerk (DEN)
