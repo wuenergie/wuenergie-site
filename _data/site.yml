@@ -1,0 +1,30 @@
+marke: WuEnergie
+inhaber: Dipl.-Ing. (FH) Jörg Wünnenberg
+unternehmen: Ing.-Büro Wünnenberg
+strasse: Hofmattenweg 6
+plz_ort: 79219 Staufen im Breisgau
+ortsteil: Grunern
+telefon: "+49 151 1948 2222"
+telefon_tel: "+4915119482222"
+email: jw@wuennenberg.org
+ust_idnr: DE231784739
+cal_url: https://cal.com/joerg-wuennenberg
+
+kernsatz: >-
+  Ich verbinde Energieberatung mit echter Anlagentechnik: Ich messe, analysiere
+  und optimiere Energieflüsse direkt im Betrieb — damit Einsparungen
+  tatsächlich erreicht werden.
+
+qualifikationen:
+  - name: Deutsches Energieberaternetzwerk (DEN)
+    url: https://www.deutsches-energieberaternetzwerk.de/
+  - name: Energie-Effizienz-Experten (BAFA/KfW)
+    url: https://www.energie-effizienz-experten.de/
+  - name: KEFF+ Baden-Württemberg
+    url: https://keffplus-bw.de/
+  - name: BAFA-anerkannt
+    url: https://www.bafa.de/
+
+partner_marke:
+  name: Ingenieurbüro Jörg Wünnenberg
+  url: https://wuennenberg.org/

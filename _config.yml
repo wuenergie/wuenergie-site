@@ -1,0 +1,32 @@
+title: WuEnergie — Ing.-Büro Jörg Wünnenberg
+author: Jörg Wünnenberg
+description: >-
+  Energieberatung und Anlagentechnik aus einer Hand: Ich messe, analysiere und
+  optimiere Energieflüsse direkt im Betrieb — damit Einsparungen tatsächlich
+  erreicht werden.
+url: https://wuenergie.de
+lang: de
+timezone: Europe/Berlin
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins — auf der GitHub-Pages-Whitelist, kein Build-Schritt nötig.
+# https://pages.github.com/versions/
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .vscode
+  - .claude
+  - .editorconfig
+  - .markdownlint.jsonc
+  - .cspell.json

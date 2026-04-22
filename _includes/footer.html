@@ -1,0 +1,34 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>{{ site.data.site.marke }}</strong>
+      <p>
+        {{ site.data.site.unternehmen }}<br>
+        {{ site.data.site.strasse }}<br>
+        {{ site.data.site.plz_ort }}
+      </p>
+    </div>
+    <div>
+      <strong>Kontakt</strong>
+      <p>
+        <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a><br>
+        <a href="tel:{{ site.data.site.telefon_tel }}">{{ site.data.site.telefon }}</a>
+      </p>
+    </div>
+    <div>
+      <strong>Rechtliches</strong>
+      <p>
+        <a href="/impressum/">Impressum</a><br>
+        <a href="/datenschutz/">Datenschutz</a>
+      </p>
+    </div>
+  </div>
+  <div class="container footer-meta">
+    <small>
+      © {{ 'now' | date: '%Y' }} {{ site.data.site.unternehmen }} ·
+      Technische Schwestermarke: <a href="{{ site.data.site.partner_marke.url }}" rel="noopener">{{ site.data.site.partner_marke.name }}</a>
+    </small>
+  </div>
+</footer>
+</body>
+</html>

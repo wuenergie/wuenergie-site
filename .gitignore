@@ -1,0 +1,26 @@
+# Jekyll Build-Ausgabe
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler (nur für optionale lokale Vorschau)
+vendor/
+Gemfile.lock
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code (lokaler Zustand, nicht versionieren)
+.claude/
+
+# Temporäre Dateien
+*.tmp
+*.bak
+.cache/

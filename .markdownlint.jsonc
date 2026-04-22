@@ -1,0 +1,22 @@
+// Markdownlint-Regeln — siehe
+// https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+// Die VSCode-Extension "davidanson.vscode-markdownlint" liest diese Datei
+// automatisch. Keine npm-Installation nötig.
+{
+  "default": true,
+
+  // Zeilenlänge nicht erzwingen — Markdown wird visuell gewrappt.
+  "MD013": false,
+
+  // Inline-HTML erlauben (Jekyll-Layouts, <br>, {% ... %}-Tags).
+  "MD033": false,
+
+  // Erste Zeile muss nicht H1 sein — unsere Seiten starten mit Front-Matter.
+  "MD041": false,
+
+  // Doppelte Überschriften nur innerhalb derselben Ebene unterbinden.
+  "MD024": { "siblings_only": true },
+
+  // Liquid-Blöcke in Code-Fences brauchen keine Sprachangabe.
+  "MD040": false
+}

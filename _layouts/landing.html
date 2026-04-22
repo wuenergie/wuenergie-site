@@ -1,0 +1,21 @@
+---
+---
+{% include head.html %}
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <img src="/favicon.svg" alt="" width="32" height="32">
+      <span>{{ site.data.site.marke }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <a href="/">Startseite</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  {{ content }}
+</main>
+{% include footer.html %}

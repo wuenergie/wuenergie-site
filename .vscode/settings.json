@@ -1,0 +1,41 @@
+{
+  // Editor-Basics
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.rulers": [100],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Markdown: weicher Zeilenumbruch, keine Autovervollständigung beim Schreiben
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "files.trimTrailingWhitespace": false
+  },
+
+  // YAML-Dateien (_data/*.yml, _config.yml) — 2 Leerzeichen
+  "[yaml]": {
+    "editor.tabSize": 2
+  },
+
+  // Jekyll-Layouts sind HTML mit Liquid-Tags — HTML-Autoformat deaktivieren,
+  // da der eingebaute Formatter Liquid-Blöcke zerreißt.
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+
+  // Build-Artefakte aus Suche ausblenden
+  "search.exclude": {
+    "_site": true,
+    ".jekyll-cache": true,
+    "vendor": true
+  },
+
+  // Spellchecker-Sprache (DE zuerst, dann EN)
+  "cSpell.language": "de,en"
+}

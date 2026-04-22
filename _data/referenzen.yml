@@ -1,0 +1,27 @@
+- name: Gewerbepark Hohentengen
+  kategorie: Batteriespeicher & EMS
+  beschreibung: 65-kWh-ecocoach-Batteriespeicher mit Energiemanagement zur Maximierung des PV-Eigenverbrauchs.
+- name: Campingplatz Strukkamphuk, Fehmarn
+  kategorie: Nahwärmenetz
+  beschreibung: Optimierung von Heizung und Nahwärmenetz für den Campingbetrieb an der Ostsee.
+- name: Sparkassen Karlsruhe, Ortenau, Breisgau, Lörrach
+  kategorie: Energieaudit DIN EN 16247
+  beschreibung: Energieberatung und -audit für mehrere Sparkassen im Südwesten.
+- name: Endress+Hauser, Reinach (CH)
+  kategorie: Industrielle Automatisierung
+  beschreibung: Trainingsanlage für Saudi Aramco — komplette Engineering- und Automatisierungsleistung.
+- name: Kläranlage Alfra, Mockrehna
+  kategorie: Kommunale Infrastruktur
+  beschreibung: Modernisierung der Leittechnik einer kommunalen Kläranlage.
+- name: Vogtsburg, Kaiserstuhl
+  kategorie: Eigenverbrauchsoptimierung
+  beschreibung: Nullpunktregler zur Vermeidung unerwünschter Netzeinspeisung.
+- name: Kindergarten Hintermatt, Schopfheim
+  kategorie: Kommunal & Soziales
+  beschreibung: Energieeinsparung im Gebäudebetrieb einer öffentlichen Einrichtung.
+- name: Kemmer GmbH, Köln
+  kategorie: Raumluftreinhaltung
+  beschreibung: Steuerung einer ClimaLevel-Anlage zur Raumluftreinhaltung in der Produktion.
+- name: Mehrparteienhaus Neustadt/Holstein
+  kategorie: BHKW & Solarthermie
+  beschreibung: BHKW in Kombination mit Solarthermie für ein Mehrparteienhaus.
