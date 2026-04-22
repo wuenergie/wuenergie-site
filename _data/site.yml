@@ -2,18 +2,49 @@ marke: WuEnergie
 inhaber: Dipl.-Ing. (FH) Jörg Wünnenberg
 unternehmen: Ing.-Büro Wünnenberg
 strasse: Hofmattenweg 6
-plz_ort: 79219 Staufen im Breisgau
+plz: "79219"
+ort: Staufen im Breisgau
 ortsteil: Grunern
+plz_ort: 79219 Staufen im Breisgau
+land: DE
+region: Baden-Württemberg
+# Geo-Koordinaten Hofmattenweg 6, Staufen-Grunern (ungefähr, für Structured Data)
+geo_lat: 47.8693
+geo_lon: 7.7268
+
 telefon: "+49 151 1948 2222"
 telefon_tel: "+4915119482222"
 email: jw@wuennenberg.org
 ust_idnr: DE231784739
 cal_url: https://cal.com/joerg-wuennenberg
 
+# Visuelle Identität (zentrale Quelle — wird in head.html / manifest referenziert)
+theme_color: "#2B7D80"
+og_image: /assets/og-image.png
+apple_touch_icon: /assets/apple-touch-icon.png
+
+# Gründung des Ingenieurbüros — für Structured Data
+gegruendet: "2003"
+
 kernsatz: >-
   Ich verbinde Energieberatung mit echter Anlagentechnik: Ich messe, analysiere
   und optimiere Energieflüsse direkt im Betrieb — damit Einsparungen
   tatsächlich erreicht werden.
+
+# Kurzbeschreibung für OpenGraph / Schema.org (eine Zeile, ≤160 Zeichen)
+social_description: >-
+  Energieberatung & Anlagentechnik aus einer Hand: Messen, analysieren,
+  optimieren — für Mittelstand, Kommunen und Betreiber energieintensiver Objekte.
+
+# Leistungsgebiete — nur für JSON-LD, nicht fürs Rendering
+leistungen:
+  - Energieberatung
+  - Energieaudit DIN EN 16247
+  - Gebäudeautomation nach §71a GEG
+  - SPS-Programmierung
+  - Schaltschrankbau
+  - Monitoring und Datenintegration
+  - BAFA-Antragsbegleitung
 
 qualifikationen:
   - name: Deutsches Energieberaternetzwerk (DEN)

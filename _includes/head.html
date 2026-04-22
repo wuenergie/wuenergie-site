@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#2B7D80">
+<meta name="theme-color" content="{{ site.data.site.theme_color }}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="{{ site.data.site.apple_touch_icon }}">
 <link rel="stylesheet" href="/assets/css/style.css">
 {% seo %}
+{% include structured-data.html %}
 </head>

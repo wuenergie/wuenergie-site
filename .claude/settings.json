@@ -10,10 +10,21 @@
       "Bash(jekyll serve:*)",
       "Bash(jekyll build:*)",
       "Bash(jekyll doctor:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git status:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(file:*)",
+      "Bash(sips:*)",
       "WebFetch(domain:wuenergie.de)",
       "WebFetch(domain:wuennenberg.org)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:jekyllrb.com)"
+      "WebFetch(domain:pages.github.com)",
+      "WebFetch(domain:jekyllrb.com)",
+      "WebFetch(domain:schema.org)"
     ]
   }
 }

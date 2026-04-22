@@ -19,14 +19,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# jekyll-seo-tag: Autorenname für Twitter-Cards und verknüpfte Organisation.
+social:
+  name: Ing.-Büro Wünnenberg
+  links:
+    - https://wuennenberg.org/
+
+# Default-OG-Bild für jede Seite. jekyll-seo-tag liest nur page.image, nicht
+# site.image — deshalb über defaults in alle Seiten injizieren.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.png
+
+# Dotfiles, Gemfile* und vendor/ werden bereits per Default ausgeschlossen.
+# Nur projektfremde Top-Level-Dateien müssen hier explizit raus.
 exclude:
   - README.md
   - CLAUDE.md
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - .vscode
-  - .claude
-  - .editorconfig
-  - .markdownlint.jsonc
-  - .cspell.json

@@ -7,6 +7,15 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  // Jekyll-Layouts und Includes sind HTML mit Liquid-Tags — als Liquid
+  // erkennen, damit die Shopify-Liquid-Extension greift und der HTML-
+  // Formatter nicht die Liquid-Blöcke zerreißt.
+  "files.associations": {
+    "_layouts/*.html": "liquid",
+    "_includes/*.html": "liquid",
+    "404.html": "liquid"
+  },
+
   // Markdown: weicher Zeilenumbruch, keine Autovervollständigung beim Schreiben
   "[markdown]": {
     "editor.wordWrap": "on",
@@ -23,8 +32,14 @@
     "editor.tabSize": 2
   },
 
-  // Jekyll-Layouts sind HTML mit Liquid-Tags — HTML-Autoformat deaktivieren,
-  // da der eingebaute Formatter Liquid-Blöcke zerreißt.
+  // RedHat-YAML-Extension: keine Schemata automatisch von schemastore.org
+  // ziehen. Unsere _data/*.yml sind freies Jekyll-Datenmaterial — jedes
+  // Auto-Schema erzeugt nur falsche Fehler.
+  "yaml.schemas": {},
+  "yaml.schemaStore.enable": false,
+
+  // Jekyll-Layouts als reines HTML: Formatter aus (siehe oben), falls
+  // irgendwo doch als HTML erkannt.
   "[html]": {
     "editor.formatOnSave": false
   },

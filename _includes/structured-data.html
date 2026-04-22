@@ -1,0 +1,43 @@
+{%- assign s = site.data.site -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "{{ site.url }}/#business",
+  "name": {{ s.unternehmen | jsonify }},
+  "alternateName": {{ s.marke | jsonify }},
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/favicon.svg",
+  "image": "{{ site.url }}{{ s.og_image }}",
+  "description": {{ s.social_description | strip_newlines | strip | jsonify }},
+  "foundingDate": "{{ s.gegruendet }}",
+  "founder": {
+    "@type": "Person",
+    "name": {{ s.inhaber | jsonify }}
+  },
+  "telephone": {{ s.telefon | jsonify }},
+  "email": {{ s.email | jsonify }},
+  "vatID": {{ s.ust_idnr | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ s.strasse | jsonify }},
+    "postalCode": {{ s.plz | jsonify }},
+    "addressLocality": {{ s.ort | jsonify }},
+    "addressRegion": {{ s.region | jsonify }},
+    "addressCountry": {{ s.land | jsonify }}
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ s.geo_lat }},
+    "longitude": {{ s.geo_lon }}
+  },
+  "areaServed": [
+    {"@type": "Country", "name": "Deutschland"},
+    {"@type": "Country", "name": "Schweiz"}
+  ],
+  "knowsAbout": {{ s.leistungen | jsonify }},
+  "sameAs": [
+    {{ s.partner_marke.url | jsonify }}
+  ]
+}
+</script>

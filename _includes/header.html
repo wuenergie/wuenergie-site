@@ -1,0 +1,24 @@
+{%- comment -%}
+  Parameter:
+    include.nav — "full" (alle Anker der Startseite) oder "minimal"
+                  (nur Startseite + Kontakt — für Landing- und Legal-Pages).
+{%- endcomment -%}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <img src="/favicon.svg" alt="" width="32" height="32">
+      <span>{{ site.data.site.marke }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      {%- if include.nav == "minimal" -%}
+        <a href="/">Startseite</a>
+        <a href="#kontakt">Kontakt</a>
+      {%- else -%}
+        <a href="/#leistungen">Leistungen</a>
+        <a href="/#referenzen">Referenzen</a>
+        <a href="/#ueber-mich">Über mich</a>
+        <a href="/#kontakt">Kontakt</a>
+      {%- endif -%}
+    </nav>
+  </div>
+</header>
