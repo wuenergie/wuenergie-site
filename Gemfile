@@ -1,10 +1,26 @@
 source "https://rubygems.org"
 
-# Spiegelt die Jekyll-Version, die GitHub Pages produktiv verwendet.
-# Damit verhält sich `bundle exec jekyll serve` lokal wie der GH-Pages-Build.
-# Updaten mit:  bundle update github-pages
-gem "github-pages", group: :jekyll_plugins
+# Dieser Gemfile ist ausschließlich für die **lokale Vorschau** gedacht.
+# GitHub Pages liest ihn nicht — der produktive Build nutzt serverseitig
+# die `github-pages`-Gem (Jekyll 3.9 + whitelisted Plugins).
+#
+# Lokal fahren wir das aktuelle Jekyll 4, weil der github-pages-Stack
+# inzwischen inkompatibel mit modernem Ruby ist. Da wir weder ein Theme
+# noch Blogposts haben und nur die beiden auf der GH-Pages-Whitelist
+# stehenden Plugins nutzen, ist der Render-Output identisch.
+#
+# Updaten mit:  bundle update
 
-# Auf Ruby 3.x nicht mehr Teil der Standard-Library — wird aber von
-# `jekyll serve` benötigt.
+gem "jekyll", "~> 4.3"
+
+group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+end
+
+# Standard-Library-Gems, die seit Ruby 3.4 nicht mehr mitkommen.
 gem "webrick", "~> 1.8"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"

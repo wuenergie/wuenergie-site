@@ -6,6 +6,7 @@ _site/
 # Ruby / Bundler (nur für optionale lokale Vorschau)
 vendor/
 Gemfile.lock
+.bundle/
 
 # Betriebssystem
 .DS_Store
@@ -17,10 +18,14 @@ Thumbs.db
 *.swo
 *~
 
-# Claude Code (lokaler Zustand, nicht versionieren)
-.claude/
+# Claude Code — nur lokale Overrides ignorieren, geteilte Einstellungen committen
+.claude/settings.local.json
 
 # Temporäre Dateien
 *.tmp
 *.bak
 .cache/
+
+# Secrets (defensiv — aktuell keine env-Dateien im Einsatz)
+.env
+.env.*

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle install)",
+      "Bash(bundle update:*)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(bundle exec jekyll doctor:*)",
+      "Bash(bundle exec jekyll clean)",
+      "Bash(jekyll serve:*)",
+      "Bash(jekyll build:*)",
+      "Bash(jekyll doctor:*)",
+      "WebFetch(domain:wuenergie.de)",
+      "WebFetch(domain:wuennenberg.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:jekyllrb.com)"
+    ]
+  }
+}
