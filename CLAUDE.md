@@ -56,13 +56,16 @@ _config.yml            Site-Konfig
 _data/
   site.yml             Kontaktdaten, Kernsatz, Badges (zentrale Quelle)
   referenzen.yml       Referenzliste (datengetrieben)
+  branchen.yml         Branchen-Buttons auf der Startseite (Hub → Spokes)
 _layouts/
   default.html         Hauptseiten-Shell
   landing.html         Vertical-Landingpage-Template
 _includes/
   head.html            Meta-Tags, OG, Favicon, CSS
+  header.html          Sticky-Header + Hauptnavigation
   footer.html          Footer mit Adresse/Kontakt/Links
   cta.html             Wiederverwendbarer Kontakt-Block
+  structured-data.html JSON-LD (ProfessionalService + Breadcrumb + Service)
 assets/css/style.css   Eine CSS-Datei, das war's
 index.md               Startseite
 camping.md             /camping — Landing für Campingplätze
@@ -104,15 +107,24 @@ robots.txt
 
 ## Neue Branchen-Landingpage anlegen
 
-`camping.md` ist das Muster. Datei kopieren, `permalink:`, `title:`,
-`description:` und Inhalte anpassen. Schema:
+Die Site folgt einer **Hub-and-Spoke-Struktur**: `index.md` ist der Hub, jede
+Branchenseite ein Spoke. Eine neue Branche besteht aus **zwei** Artefakten:
 
-1. Hero (Overline + H1 + Lede + CTAs) im Layout `landing`
-2. Typische Schmerzpunkte (`.pain-list`)
-3. Vorgehen (`.steps` mit 4 Schritten)
-4. Branchen-Referenzen (`.ref-list`)
-5. Quick-Check als Einstieg
-6. `{% include cta.html %}`
+1. **Markdown-Datei** — `camping.md` ist das Muster. Kopieren, `permalink:`,
+   `title:`, `description:`, `breadcrumb:` und `service:` (für JSON-LD)
+   anpassen. Seitenaufbau im Layout `landing`:
+   - Hero (Overline + H1 + Lede + CTAs)
+   - Typische Schmerzpunkte (`.pain-list`)
+   - Vorgehen (`.steps` mit 4 Schritten, branchen­spezifisch formuliert)
+   - Branchen-Referenzen (`.ref-list`)
+   - Quick-Check als Einstieg mit Querlinks auf `/#leistungen` und `/#branchen`
+   - `{% include cta.html %}`
+2. **Eintrag in `_data/branchen.yml`** mit `slug`, `url` und `name`. Erst damit
+   erscheint der Branchen-Button in der Startseiten-Sektion „Für Ihre Branche".
+
+Jede Branchenseite muss **inhaltlich eigenständig** sein (andere Schmerzpunkte,
+andere Formulierungen) — Near-Duplicate-Content wird von Google bestraft und
+kannibalisiert die Rankings.
 
 ## Arbeitsweise
 

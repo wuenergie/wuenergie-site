@@ -63,6 +63,18 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
   </div>
 </section>
 
+<section id="branchen">
+  <div class="container">
+    <h2>Für Ihre Branche</h2>
+    <p class="section-lede">Für Branchen mit wiederkehrenden Energiethemen gibt es eigene Profile — mit branchenspezifischem Vorgehen und passenden Referenzen.</p>
+    <div class="branchen-buttons">
+      {% for b in site.data.branchen %}
+      <a class="btn btn-secondary btn-lg" href="{{ b.url }}">{{ b.name }} <span aria-hidden="true">→</span></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section id="ueber-mich">
   <div class="container">
     <h2>Wer das macht</h2>

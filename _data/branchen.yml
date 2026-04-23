@@ -1,0 +1,6 @@
+# Branchen-Landingpages (Hub-and-Spoke-Struktur).
+# Pro Branche: eigene Markdown-Datei (Muster: camping.md). Die Startseite
+# rendert hieraus die Branchen-Buttons. Reihenfolge = Darstellungsreihenfolge.
+- slug: camping
+  url: /camping/
+  name: Campingplätze & Freizeitparks

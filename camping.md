@@ -4,6 +4,11 @@ permalink: /camping/
 title: Nahwärme auf Campingplätzen — messbar effizient
 description: Energieoptimierung für Campingplätze und Freizeitparks — Nahwärmenetze, PV-Eigenverbrauch, Lastspitzen. Langjährige Referenzen an der Ostsee.
 breadcrumb: Camping
+service:
+  name: Energieoptimierung für Campingplätze
+  type: Energieberatung
+  audience: Betreiber von Campingplätzen und Freizeitparks
+  description: Messen, Analysieren und Optimieren von Nahwärmenetzen, Lastspitzen und PV-Eigenverbrauch auf Campingplätzen — Beratung und Umsetzung aus einer Hand.
 ---
 
 <section class="landing-hero">
@@ -12,8 +17,8 @@ breadcrumb: Camping
     <h1>Nahwärme auf Campingplätzen — messbar effizient&nbsp;betreiben.</h1>
     <p class="hero-lede">Saisonale Lastspitzen, schwankende Belegung, teure Wärmeverluste: Ich messe, analysiere und optimiere direkt am Platz — mit Ergebnissen, die Sie pro Saison nachvollziehen können.</p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="{{ site.data.site.cal_url }}" rel="noopener" target="_blank">30-Min-Gespräch buchen</a>
-      <a class="btn btn-secondary" href="mailto:{{ site.data.site.email }}?subject=Anfrage%20Campingplatz">E-Mail schreiben</a>
+      <a class="btn btn-primary" href="mailto:{{ site.data.site.email }}?subject=Anfrage%20Campingplatz">E-Mail schreiben</a>
+      <a class="btn btn-secondary" href="{{ site.data.site.cal_url }}" rel="noopener" target="_blank">30-Min-Gespräch buchen</a>
     </div>
   </div>
 </section>
@@ -111,7 +116,7 @@ breadcrumb: Camping
   <div class="container">
     <h2>Einstieg: Quick-Check Energie</h2>
     <p class="section-lede">2–3 Tage vor Ort, temporäre Messung zentraler Energieflüsse, Ergebnisbericht mit drei konkreten Sofortmaßnahmen. Festpreis, klar umrissen — der Weg, um ohne großes Risiko anzufangen.</p>
-    <p>Einen Überblick über das gesamte Leistungsspektrum — von Energieaudit und BAFA-Antrag bis zu Gebäudeautomation und SPS-Programmierung — finden Sie unter <a href="/#leistungen">Leistungen</a>.</p>
+    <p>Einen Überblick über das gesamte Leistungsspektrum — von Energieaudit und BAFA-Antrag bis zu Gebäudeautomation und SPS-Programmierung — finden Sie unter <a href="/#leistungen">Leistungen</a>. Weitere Einsatzfelder sind unter <a href="/#branchen">Branchen</a> verlinkt.</p>
   </div>
 </section>
 

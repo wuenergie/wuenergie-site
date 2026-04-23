@@ -84,6 +84,23 @@
           "name": {{ page.breadcrumb | default: page.title | jsonify }}
         }
       ]
+    }{% endif %}{% if page.service %},
+    {
+      "@type": "Service",
+      "@id": "{{ site.url }}{{ page.url }}#service",
+      "url": "{{ site.url }}{{ page.url }}",
+      "name": {{ page.service.name | jsonify }},
+      "description": {{ page.service.description | default: page.description | jsonify }},
+      "serviceType": {{ page.service.type | jsonify }},
+      "provider": { "@id": "{{ business_id }}" },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": {{ page.service.audience | jsonify }}
+      },
+      "areaServed": [
+        {"@type": "Country", "name": "Deutschland"},
+        {"@type": "Country", "name": "Schweiz"}
+      ]
     }{% endif %}
   ]
 }

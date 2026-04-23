@@ -221,6 +221,10 @@ section + section { border-top: 1px solid var(--c-border); }
   background: var(--c-ink);
   color: #fff;
 }
+.btn-lg {
+  padding: 1.125rem 2rem;
+  font-size: 1.0625rem;
+}
 
 /* Cards grid (Leistungen) */
 .cards {
@@ -237,6 +241,13 @@ section + section { border-top: 1px solid var(--c-border); }
 }
 .card h3 { margin-top: 0; }
 .card p { margin-bottom: 0; color: var(--c-muted); }
+
+/* Branchen-Abschnitt — linksbündige Button-Reihe */
+.branchen-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
 
 /* Duotone-Icons in Cards */
 .card-icon {
