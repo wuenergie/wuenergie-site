@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Energy sichtbar, steuerbar und wirtschaftlich
+title: Energie sichtbar, steuerbar und wirtschaftlich
 description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energieberatung, Gebäudeautomation nach §71a GEG, Monitoring und Anlagentechnik aus einer Hand.
 ---
 
