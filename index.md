@@ -21,18 +21,41 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
     <p class="section-lede">Beratung und Umsetzung aus einer Hand — vom ersten Messaufbau bis zur laufenden Optimierung im Betrieb.</p>
     <div class="cards">
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path class="card-icon-bg" d="M3 17a9 9 0 0 1 18 0z"/>
+          <path class="card-icon-fg" d="M3 17a9 9 0 0 1 18 0"/>
+          <path class="card-icon-fg" d="M12 17l4.8-3.8"/>
+          <circle class="card-icon-dot" cx="12" cy="17" r="1.5"/>
+        </svg>
         <h3>Energiesystem-Analyse</h3>
         <p>Vollständige Abbildung Ihrer Energieversorgung: Erzeugung, Speicherung, Verteilung, Verbrauch — mit Wirtschaftlichkeits- und CO₂-Bewertung.</p>
       </div>
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect class="card-icon-bg" x="3" y="5" width="18" height="14" rx="2"/>
+          <rect class="card-icon-fg" x="3" y="5" width="18" height="14" rx="2"/>
+          <path class="card-icon-fg" d="M6 15l3-3 3 2 5-6"/>
+          <circle class="card-icon-dot" cx="17" cy="8" r="1.25"/>
+        </svg>
         <h3>Monitoring &amp; Datenintegration</h3>
         <p>Verbrauchs- und Erzeugungsdaten aus PV, BHKW, Wärmepumpe oder Biomasse werden erfasst, visualisiert und für Entscheidungen nutzbar gemacht.</p>
       </div>
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path class="card-icon-bg" d="M3 21V7l7-3v3h11v14z"/>
+          <path class="card-icon-fg" d="M3 21V7l7-3v3h11v14H3z"/>
+          <path class="card-icon-dot" d="M14 9.5l-2.6 4.7h2.1l-1 3.6 3.1-5.1h-2.1z"/>
+        </svg>
         <h3>Gebäudeautomation nach §71a GEG</h3>
         <p>Komplettlösung für die Nachrüstpflicht großer Nichtwohngebäude — von der Messtechnik bis zur Regelung. EU-Novelle senkt die Schwelle perspektivisch auf 70 kW.</p>
       </div>
       <div class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect class="card-icon-bg" x="5" y="5" width="14" height="16" rx="2"/>
+          <rect class="card-icon-fg" x="5" y="5" width="14" height="16" rx="2"/>
+          <rect class="card-icon-fg" x="9" y="3" width="6" height="3.5" rx="1"/>
+          <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
+        </svg>
         <h3>Quick-Check Energie</h3>
         <p>2–3 Tage vor Ort, temporäre Messung, Ergebnisbericht mit drei Sofortmaßnahmen — zum Festpreis. Der unkomplizierte Einstieg.</p>
       </div>
@@ -58,7 +81,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
 <section id="referenzen">
   <div class="container">
     <h2>Referenzen</h2>
-    <p class="section-lede">Gewerbe, Kommunen, Campingplätze, Sparkassen, Industrie — vom Kindergarten bis zur Trainingsanlage in der Schweiz.</p>
+    <p class="section-lede">Gewerbe, Campingplätze, Sparkassen, Industrie — vom Kindergarten bis zur Trainingsanlage im Bereich Wasser- und Ölwirtschaft in der Schweiz.</p>
     <ul class="ref-list">
       {% for r in site.data.referenzen %}
       <li>

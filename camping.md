@@ -35,20 +35,48 @@ breadcrumb: Camping
   <div class="container">
     <h2>Wie ich vorgehe</h2>
     <p class="section-lede">Vier Schritte, die aufeinander aufbauen. Kein Beratungsbericht, der anschließend in der Schublade verschwindet.</p>
-    <ol class="steps">
+    <ol class="steps steps-with-icons">
       <li>
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path class="card-icon-bg" d="M3 17a9 9 0 0 1 18 0z"/>
+          <path class="card-icon-fg" d="M3 17a9 9 0 0 1 18 0"/>
+          <path class="card-icon-fg" d="M12 17l4.8-3.8"/>
+          <circle class="card-icon-dot" cx="12" cy="17" r="1.5"/>
+        </svg>
         <h3>Messen</h3>
         <p>Temporäre Messtechnik an den relevanten Punkten — Wärmemengen, Stromflüsse, Temperaturen im Nahwärmenetz.</p>
       </li>
       <li>
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect class="card-icon-bg" x="3" y="5" width="18" height="14" rx="2"/>
+          <rect class="card-icon-fg" x="3" y="5" width="18" height="14" rx="2"/>
+          <path class="card-icon-fg" d="M6 15l3-3 3 2 5-6"/>
+          <circle class="card-icon-dot" cx="17" cy="8" r="1.25"/>
+        </svg>
         <h3>Analysieren</h3>
         <p>Lastgänge, Verluste und Eigenverbrauchspotenziale werden in nachvollziehbaren Zahlen sichtbar.</p>
       </li>
       <li>
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect class="card-icon-bg" x="3" y="5" width="18" height="14" rx="2"/>
+          <rect class="card-icon-fg" x="3" y="5" width="18" height="14" rx="2"/>
+          <line class="card-icon-fg" x1="6" y1="9" x2="18" y2="9"/>
+          <line class="card-icon-fg" x1="6" y1="12" x2="18" y2="12"/>
+          <line class="card-icon-fg" x1="6" y1="15" x2="18" y2="15"/>
+          <circle class="card-icon-dot" cx="10" cy="9" r="1.5"/>
+          <circle class="card-icon-dot" cx="15" cy="12" r="1.5"/>
+          <circle class="card-icon-dot" cx="8" cy="15" r="1.5"/>
+        </svg>
         <h3>Optimieren</h3>
         <p>Konkrete Maßnahmen — von Regelungsanpassungen bis zu baulichen Empfehlungen. Wo sinnvoll: umsetzen, nicht nur empfehlen.</p>
       </li>
       <li>
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect class="card-icon-bg" x="5" y="5" width="14" height="16" rx="2"/>
+          <rect class="card-icon-fg" x="5" y="5" width="14" height="16" rx="2"/>
+          <rect class="card-icon-fg" x="9" y="3" width="6" height="3.5" rx="1"/>
+          <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
+        </svg>
         <h3>Überprüfen</h3>
         <p>Monitoring dokumentiert die erzielten Einsparungen über die Saison. Grundlage für nächste Schritte.</p>
       </li>
