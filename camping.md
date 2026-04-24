@@ -27,8 +27,8 @@ service:
   <div class="container">
     <h2>Typische Themen auf Campingplätzen</h2>
     <ul class="pain-list">
-      <li>Das Nahwärmenetz läuft durchgehend — auch wenn halber Platz geschlossen ist.</li>
-      <li>Wärmeverluste in Leitungstrassen sind spürbar, aber nicht quantifiziert.</li>
+      <li>Das Nahwärmenetz läuft durchgehend — auch wenn der halbe Platz geschlossen ist.</li>
+      <li>Wärmeverluste in Leitungen sind spürbar, aber nicht quantifiziert.</li>
       <li>Hauptsaison erzeugt Lastspitzen, die teure Leistungspreise auslösen.</li>
       <li>PV-Eigenverbrauch wäre möglich, wird aber nicht aktiv gesteuert.</li>
       <li>BHKW oder Wärmepumpe sind vorhanden — das Zusammenspiel mit dem Rest fehlt.</li>
