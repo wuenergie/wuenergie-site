@@ -2,7 +2,7 @@
 
 Statische Einpersonen-Website für **WuEnergie / Ing.-Büro Jörg Wünnenberg**
 (Staufen im Breisgau, seit 2003). Konversionsorientiert — Ziel: E-Mail-Anfrage
-oder 30-Minuten-Erstgespräch via Cal.com.
+oder 30-Minuten-Erstgespräch via Microsoft Bookings.
 
 > Dieses Dokument brieft zukünftige Claude-Sessions. Das Inhaber-Handbuch
 > („So änderst du Texte") steht in [README.md](./README.md).
@@ -34,16 +34,16 @@ Ingenieure**. Suchen Vertrauen + klaren nächsten Schritt.
 
 ## Stack (bewusst schlicht)
 
-| Ebene          | Wahl                                                             |
-| -------------- | ---------------------------------------------------------------- |
-| Generator      | **Jekyll** (nativ von GitHub Pages gebaut, kein Action nötig)    |
-| Content        | Markdown im Repo-Root, Daten in `_data/*.yml`                    |
-| Styling        | Eine handgepflegte CSS-Datei, CSS-Variablen, `clamp()`           |
-| Fonts          | System-Font-Stack (kein Google CDN, keine Custom Webfonts)       |
-| Interaktivität | Keine. Pure HTML/CSS.                                            |
-| Kontakt        | `mailto:` + externer Cal.com-Link (kein Embed, kein Tracking-JS) |
-| Analytics      | Keine                                                            |
-| Hosting        | GitHub Pages (Source: `main` Branch, Root)                       |
+| Ebene          | Wahl                                                                        |
+| -------------- | --------------------------------------------------------------------------- |
+| Generator      | **Jekyll** (nativ von GitHub Pages gebaut, kein Action nötig)               |
+| Content        | Markdown im Repo-Root, Daten in `_data/*.yml`                               |
+| Styling        | Eine handgepflegte CSS-Datei, CSS-Variablen, `clamp()`                      |
+| Fonts          | System-Font-Stack (kein Google CDN, keine Custom Webfonts)                  |
+| Interaktivität | Keine. Pure HTML/CSS.                                                       |
+| Kontakt        | `mailto:` + externer Microsoft-Bookings-Link (kein Embed, kein Tracking-JS) |
+| Analytics      | Keine                                                                       |
+| Hosting        | GitHub Pages (Source: `main` Branch, Root)                                  |
 
 **Bewusst NICHT im Einsatz:** npm, Node, Bundler-Builds im CI,
 React/Vue/Alpine, Astro, Tailwind-Build, Analytics, Cookie-Banner,
@@ -102,7 +102,7 @@ robots.txt
 - Keine Google Fonts CDN, Google Analytics, Google Maps, Meta Pixel.
 - Keine Cookie-Banner.
 - Keine neuen Dependencies (npm, zusätzliche Gems, …).
-- Kein Kontaktformular (bewusste Entscheidung: E-Mail + Cal.com).
+- Kein Kontaktformular (bewusste Entscheidung: E-Mail + Microsoft Bookings).
 - Keine Feature-Erweiterungen ohne explizite Freigabe.
 
 ## Neue Branchen-Landingpage anlegen

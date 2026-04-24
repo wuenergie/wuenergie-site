@@ -26,8 +26,8 @@ description: Datenschutzerklärung von Ing.-Büro Wünnenberg · WuEnergie.
     <h2>Kontaktaufnahme per E-Mail</h2>
     <p>Wenn Sie mir per E-Mail schreiben, verarbeite ich Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Anbahnung eines Vertragsverhältnisses) bzw. Art. 6 Abs. 1 lit. f DSGVO. Daten werden gelöscht, sobald sie für die Beantwortung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
 
-    <h2>Terminbuchung über Cal.com</h2>
-    <p>Für die Buchung eines Erstgesprächs nutze ich den externen Dienst <a href="https://cal.com/" rel="noopener" target="_blank">Cal.com</a> (Cal.com, Inc.). Beim Klick auf den Buchungslink verlassen Sie diese Website und werden direkt zum Anbieter weitergeleitet. Dort von Ihnen eingegebene Daten werden durch Cal.com gemäß deren <a href="https://cal.com/privacy" rel="noopener" target="_blank">Datenschutzerklärung</a> verarbeitet. Auf dieser Website selbst wird kein Skript und kein Inhalt von Cal.com geladen.</p>
+    <h2>Terminbuchung über Microsoft Bookings</h2>
+    <p>Für die Buchung eines Erstgesprächs nutze ich <a href="https://www.microsoft.com/microsoft-365/business/scheduling-and-booking-app" rel="noopener" target="_blank">Microsoft Bookings</a> (Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Irland). Beim Klick auf den Buchungslink verlassen Sie diese Website und werden direkt zum Anbieter weitergeleitet (<code>outlook.office.com</code>). Dort von Ihnen eingegebene Daten werden durch Microsoft gemäß deren <a href="https://privacy.microsoft.com/de-de/privacystatement" rel="noopener" target="_blank">Datenschutzbestimmungen</a> verarbeitet. Auf dieser Website selbst wird kein Skript und kein Inhalt von Microsoft geladen.</p>
 
     <h2>Ihre Rechte</h2>
     <p>Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde.</p>

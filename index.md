@@ -10,7 +10,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
     <p class="hero-lede">{{ site.data.site.kernsatz }}</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="mailto:{{ site.data.site.email }}">E-Mail schreiben</a>
-      <a class="btn btn-secondary" href="{{ site.data.site.cal_url }}" rel="noopener" target="_blank">30-Min-Gespräch buchen</a>
+      <a class="btn btn-secondary" href="{{ site.data.site.booking_url }}" rel="noopener" target="_blank">30-Min-Gespräch buchen</a>
     </div>
   </div>
 </section>

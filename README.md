@@ -8,14 +8,14 @@ Gebaut mit **Jekyll**, gehostet auf **GitHub Pages**. Keine npm-Abhängigkeiten,
 
 Alle Inhalte liegen als Markdown und YAML im Repo:
 
-| Datei                  | Inhalt                                                      |
-| ---------------------- | ----------------------------------------------------------- |
-| `_data/site.yml`       | Kontaktdaten, Kernsatz, Cal.com-Link, Qualifikations-Badges |
-| `_data/referenzen.yml` | Liste aller Referenzen                                      |
-| `index.md`             | Startseite (`/`)                                            |
-| `camping.md`           | Landingpage Campingplätze (`/camping/`)                     |
-| `impressum.md`         | Impressum (`/impressum/`)                                   |
-| `datenschutz.md`       | Datenschutz (`/datenschutz/`)                               |
+| Datei                  | Inhalt                                                       |
+| ---------------------- | ------------------------------------------------------------ |
+| `_data/site.yml`       | Kontaktdaten, Kernsatz, Buchungs-Link, Qualifikations-Badges |
+| `_data/referenzen.yml` | Liste aller Referenzen                                       |
+| `index.md`             | Startseite (`/`)                                             |
+| `camping.md`           | Landingpage Campingplätze (`/camping/`)                      |
+| `impressum.md`         | Impressum (`/impressum/`)                                    |
+| `datenschutz.md`       | Datenschutz (`/datenschutz/`)                                |
 
 ### Ändern direkt auf github.com
 
