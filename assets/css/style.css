@@ -301,6 +301,27 @@ section + section { border-top: 1px solid var(--c-border); }
   .ref-cat { white-space: normal; }
 }
 
+/* Über-mich: zweispaltiges Grid */
+.ueber-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-xl);
+  align-items: start;
+}
+.ueber-portrait {
+  width: clamp(200px, 28vw, 300px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border);
+  display: block;
+}
+@media (max-width: 640px) {
+  .ueber-grid { grid-template-columns: 1fr; }
+  .ueber-portrait { width: min(240px, 100%); }
+}
+
 /* Qualifikationen-Badges */
 .badges {
   list-style: none;
@@ -479,6 +500,54 @@ section + section { border-top: 1px solid var(--c-border); }
 .steps li p { margin: 0; color: var(--c-muted); font-size: 0.95rem; }
 .steps-with-icons li::before { content: none; }
 .steps-with-icons li { text-align: center; }
+
+/* ROI-Banner */
+.roi-banner {
+  background: var(--c-ink);
+  color: #fff;
+  border-top: none !important;
+}
+.roi-banner-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+  margin-bottom: var(--space-md);
+}
+.roi-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-sm);
+}
+.roi-stat {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md) var(--space-sm);
+  text-align: center;
+}
+.roi-stat-value {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 1.6rem + 1.5vw, 2.75rem);
+  font-weight: 600;
+  color: #5ecdd0;
+  line-height: 1.05;
+  margin-bottom: 0.5rem;
+}
+.roi-stat-label {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.3;
+}
+.roi-source {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 0;
+  margin-top: var(--space-sm);
+}
 
 ::selection { background: var(--c-accent); color: #fff; }
 

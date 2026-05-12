@@ -24,3 +24,7 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "logger"
+
+# Windows-spezifisch: Jekyll braucht tzinfo für Zeitzonenberechnung
+gem "tzinfo", "~> 2.0"
+gem "tzinfo-data"
