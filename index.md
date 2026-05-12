@@ -79,7 +79,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
   <div class="container">
     <div class="ueber-grid">
       <div>
-        <h2>Wer das macht</h2>
+        <h2>Wer optimiert</h2>
         <p>Mein Name ist Jörg Wünnenberg. Ich bin Dipl.-Ing. (FH) für Elektrotechnik mit Schwerpunkt Energieerzeugung und -verteilung, begonnen als Mess- und Regelmechaniker in der chemischen Industrie. <strong>Seit 2003</strong> führe ich mein eigenes Ingenieurbüro in Staufen im Breisgau.</p>
         <p>Was mich von reinen Beratern und reinen Automatisierern unterscheidet: Ich mache beides. Energieaudit nach DIN EN 16247 und BAFA-Antrag. SPS-Programmierung und Schaltschrankbau. Inbetriebnahme und Monitoring. Genau an der Lücke, an der sonst Beratungsberichte und Umsetzung auseinanderfallen.</p>
 
