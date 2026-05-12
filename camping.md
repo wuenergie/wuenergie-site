@@ -23,6 +23,31 @@ service:
   </div>
 </section>
 
+<section class="roi-banner">
+  <div class="container">
+    <p class="roi-banner-label">Referenzprojekt · Campingplatz Strukkamphuk, Fehmarn</p>
+    <div class="roi-stats">
+      <div class="roi-stat">
+        <span class="roi-stat-value">19.700 €</span>
+        <span class="roi-stat-label">Einsparung im ersten Jahr</span>
+      </div>
+      <div class="roi-stat">
+        <span class="roi-stat-value">−16,4 %</span>
+        <span class="roi-stat-label">Energiekosten gesunken</span>
+      </div>
+      <div class="roi-stat">
+        <span class="roi-stat-value">&lt;&nbsp;2 Jahre</span>
+        <span class="roi-stat-label">Amortisation</span>
+      </div>
+      <div class="roi-stat">
+        <span class="roi-stat-value">+63.500 €</span>
+        <span class="roi-stat-label">Nettogewinn nach 5 Jahren</span>
+      </div>
+    </div>
+    <p class="roi-source">Nahwärmenetz-Optimierung · gemessene Ergebnisse aus dem laufenden Betrieb</p>
+  </div>
+</section>
+
 <section>
   <div class="container">
     <h2>Typische Themen auf Campingplätzen</h2>
