@@ -2,11 +2,11 @@
   --c-accent: #2B7D80;
   --c-accent-dark: #1F5A5C;
   --c-accent-soft: #E8F1F1;
-  --c-bg: #FDF7EC;
+  --c-bg: #EDF7F7;
   --c-surface: #FFFFFF;
   --c-ink: #1A1A1A;
   --c-muted: #5B5B5B;
-  --c-border: #E6DFD0;
+  --c-border: #D0E4E4;
 
   --font-sans: "Aptos", "Seravek", "Segoe UI Variable Text", "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
   --font-display: "Aptos Display", "Aptos", "Seravek", "Segoe UI Variable Display", "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
@@ -102,7 +102,7 @@ a:hover { color: var(--c-accent); }
 /* Header */
 .site-header {
   border-bottom: 1px solid var(--c-border);
-  background: rgba(253, 247, 236, 0.85);
+  background: rgba(237, 247, 247, 0.85);
   position: sticky;
   top: 0;
   z-index: 10;
