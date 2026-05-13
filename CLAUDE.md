@@ -9,19 +9,25 @@ oder 30-Minuten-Erstgespräch via Microsoft Bookings.
 
 ## Positionierung (Kernsatz)
 
-> „Ich verbinde Energieberatung mit echter Anlagentechnik: Ich messe,
-> analysiere und optimiere Energieflüsse direkt im Betrieb — damit
-> Einsparungen tatsächlich erreicht werden."
+> „Ich messe, analysiere und optimiere Energieflüsse direkt im Betrieb —
+> damit Einsparungen tatsächlich erreicht werden."
 
-**T-förmige Kompetenz** als USP: Beratung **und** Umsetzung aus einer Hand —
-Audit, BAFA-Antrag, SPS-Programmierung, Schaltschrank, Inbetriebnahme,
-Monitoring. Das unterscheidet vom reinen Berater und vom reinen Automatisierer.
+**Wichtig:** Jörg Wünnenberg bietet **keine** eigenständige Energieberatung
+mehr an und ist nicht mehr als Energieberater gelistet. Sein Schwerpunkt ist
+die **praktische Anlagentechnik**: Messtechnik vor Ort, SPS-Programmierung,
+Schaltschrankbau, Gebäudeautomation, Monitoring.
+
+Für **Energieaudit nach DIN EN 16247** und **BAFA-Förderanträge** gilt ein
+**Kooperationsmodell**: Jörg übernimmt Vor-Ort-Begehung und Messdatenaufnahme,
+sein Bruder (Ing.-Büro Wünnenberg, www.ib-wuennenberg.org) erstellt Bericht
+und Antrag. Texte nie so formulieren, als würde Jörg das Audit/den Antrag
+allein durchführen.
 
 ## Zielgruppe
 
 - Primär: Geschäftsführer/Inhaber Mittelstand (20–500 MA), Facility Manager,
   Betreiber energieintensiver Objekte (Hotels, Camping, Produktion, Pflegeheime).
-- Sekundär: Kommunen, Stadtwerke, Sparkassen (DIN-EN-16247-Audits).
+- Sekundär: Kommunen, Stadtwerke (technische Optimierung, keine reinen Audits).
 
 Entscheidungskontext: geschäftsorientiert, technisch interessiert, **keine
 Ingenieure**. Suchen Vertrauen + klaren nächsten Schritt.

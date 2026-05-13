@@ -18,7 +18,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
 <section id="leistungen">
   <div class="container">
     <h2>Was ich für Sie tue</h2>
-    <p class="section-lede">Beratung und Umsetzung aus einer Hand — vom ersten Messaufbau bis zur laufenden Optimierung im Betrieb.</p>
+    <p class="section-lede">Messtechnik und Umsetzung aus einer Hand — vom ersten Messaufbau bis zur laufenden Optimierung im Betrieb.</p>
     <div class="cards">
       <div class="card">
         <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -57,7 +57,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
         </svg>
         <h3>Quick-Check Energie</h3>
-        <p>Drei konkrete Sofortmaßnahmen — in 2–3 Tagen, zum Festpreis. Temporäre Messung vor Ort, Ergebnisbericht, kein langes Vorlaufprojekt. Der unkomplizierte Einstieg.</p>
+        <p>Vor-Ort-Messung und Statusaufnahme in 2–3 Tagen — zum Festpreis. Konkrete Handlungsempfehlungen, kein langes Vorlaufprojekt. Der unkomplizierte Einstieg.</p>
       </div>
     </div>
   </div>
@@ -80,7 +80,8 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
     <div class="ueber-grid">
       <div>
         <h2>Wer optimiert</h2>
-        <p>Was mich von reinen Beratern und reinen Automatisierern unterscheidet: Ich mache beides. Energieaudit nach DIN EN 16247 und BAFA-Antrag. SPS-Programmierung und Schaltschrankbau. Inbetriebnahme und Monitoring. Genau an der Lücke, an der sonst Beratungsberichte und Umsetzung auseinanderfallen.</p>
+        <p>Mein Schwerpunkt liegt in der Praxis: Messtechnik und Datenerfassung vor Ort, SPS-Programmierung, Schaltschrankbau, Inbetriebnahme und Monitoring. Ich liefere Einsparungen, die sich im laufenden Betrieb tatsächlich messen lassen.</p>
+        <p>Brauchen Sie ein normkonformes Energieaudit nach DIN EN 16247 oder einen BAFA-Förderantrag? Ich übernehme die Vor-Ort-Begehung und Messdatenaufnahme — Auswertung, Bericht und Antrag erstellt das <a href="https://www.ib-wuennenberg.org" rel="noopener" target="_blank">Ing.-Büro Wünnenberg</a>. Ein Kontakt, zwei Experten.</p>
         <p>Mein Name ist Jörg Wünnenberg — Dipl.-Ing. (FH) Elektrotechnik, begonnen als Mess- und Regelmechaniker in der chemischen Industrie. <strong>Seit 2003</strong> führe ich mein eigenes Ingenieurbüro in Staufen im Breisgau.</p>
 
         <h3>Anerkannt und gelistet</h3>
