@@ -54,12 +54,8 @@ leistungen:
 qualifikationen:
   - name: Deutsches Energieberaternetzwerk (DEN)
     url: https://www.deutsches-energieberaternetzwerk.de/
-  - name: Energie-Effizienz-Experten (BAFA/KfW)
-    url: https://www.energie-effizienz-experten.de/
   - name: KEFF+ Baden-Württemberg
     url: https://keffplus-bw.de/
-  - name: BAFA-anerkannt
-    url: https://www.bafa.de/
 
 partner_marke:
   name: Ingenieurbüro Jörg Wünnenberg
