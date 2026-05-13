@@ -5,11 +5,11 @@
   --c-blue: #1B5DB8;
   --c-blue-dark: #154BA0;
   --c-blue-soft: #E6EEF9;
-  --c-bg: #F0F6F2;
+  --c-bg: #EEF3F8;
   --c-surface: #FFFFFF;
   --c-ink: #1A1A1A;
   --c-muted: #5B5B5B;
-  --c-border: #C8D9D0;
+  --c-border: #C2D2E8;
 
   --font-sans: "Aptos", "Seravek", "Segoe UI Variable Text", "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
   --font-display: "Aptos Display", "Aptos", "Seravek", "Segoe UI Variable Display", "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
@@ -53,7 +53,7 @@ h1, h2 {
   text-wrap: balance;
 }
 h1 { font-size: clamp(2.25rem, 1.7rem + 2.8vw, 3.75rem); }
-h2 { font-size: clamp(1.75rem, 1.45rem + 1.4vw, 2.5rem); }
+h2 { font-size: clamp(1.75rem, 1.45rem + 1.4vw, 2.5rem); color: var(--c-blue-dark); }
 h3 {
   font-family: var(--font-sans);
   font-weight: 600;
@@ -240,11 +240,13 @@ section + section { border-top: 1px solid var(--c-border); }
   border-radius: var(--radius-lg);
   padding: var(--space-md);
   text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(27, 93, 184, 0.15);
+  background: var(--c-blue-soft);
+  border-color: var(--c-blue);
 }
 .card h3 { margin-top: 0; }
 .card p { margin-bottom: 0; color: var(--c-muted); }
@@ -290,6 +292,11 @@ section + section { border-top: 1px solid var(--c-border); }
   grid-template-columns: 1fr auto;
   gap: 0.5rem var(--space-md);
   align-items: start;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.ref-list li:hover {
+  border-color: var(--c-blue);
+  background: var(--c-blue-soft);
 }
 .ref-name { font-weight: 600; }
 .ref-cat {
@@ -493,12 +500,17 @@ section + section { border-top: 1px solid var(--c-border); }
   border-radius: var(--radius-lg);
   padding: var(--space-md);
   counter-increment: step;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.steps li:hover {
+  border-color: var(--c-blue);
+  background: var(--c-blue-soft);
 }
 .steps li::before {
   content: counter(step, decimal-leading-zero);
   display: block;
   font-family: var(--font-display);
-  color: var(--c-accent);
+  color: var(--c-blue);
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--space-xs);
