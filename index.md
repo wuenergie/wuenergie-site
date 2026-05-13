@@ -81,7 +81,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
       <div>
         <h2>Wer optimiert</h2>
         <p>Mein Schwerpunkt liegt in der Praxis: Messtechnik und Datenerfassung vor Ort, SPS-Programmierung, Schaltschrankbau, Inbetriebnahme und Monitoring. Ich liefere Einsparungen, die sich im laufenden Betrieb tatsächlich messen lassen.</p>
-        <p>Brauchen Sie ein normkonformes Energieaudit nach DIN EN 16247 oder einen BAFA-Förderantrag? Ich übernehme die Vor-Ort-Begehung und Messdatenaufnahme — Auswertung, Bericht und Antrag erstellt das <a href="https://www.ib-wuennenberg.org" rel="noopener" target="_blank">Ing.-Büro Wünnenberg</a>. Ein Kontakt, zwei Experten.</p>
+        <p>Brauchen Sie ein normkonformes Energieaudit nach DIN EN 16247 oder einen BAFA-Förderantrag? Ich übernehme die Vor-Ort-Begehung und Messdatenaufnahme — Auswertung, Bericht und Antrag erstellt das <a href="https://www.ib-wuennenberg.de" rel="noopener" target="_blank">Ing.-Büro Wünnenberg</a>. Ein Kontakt, zwei Experten.</p>
         <p>Mein Name ist Jörg Wünnenberg — Dipl.-Ing. (FH) Elektrotechnik, begonnen als Mess- und Regelmechaniker in der chemischen Industrie. <strong>Seit 2003</strong> führe ich mein eigenes Ingenieurbüro in Staufen im Breisgau.</p>
 
         <h3>Anerkannt und gelistet</h3>
