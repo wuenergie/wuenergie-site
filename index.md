@@ -28,7 +28,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <circle class="card-icon-dot" cx="12" cy="17" r="1.5"/>
         </svg>
         <h3>Energiesystem-Analyse</h3>
-        <p>Vollständige Abbildung Ihrer Energieversorgung: Erzeugung, Speicherung, Verteilung, Verbrauch — mit Wirtschaftlichkeits- und CO₂-Bewertung.</p>
+        <p>Wissen, wo Energie verloren geht — und was eine Verbesserung wirklich bringt. Vollständige Abbildung von Erzeugung, Speicherung, Verteilung und Verbrauch mit Wirtschaftlichkeits- und CO₂-Bewertung.</p>
       </div>
       <div class="card">
         <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -38,7 +38,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <circle class="card-icon-dot" cx="17" cy="8" r="1.25"/>
         </svg>
         <h3>Monitoring &amp; Datenintegration</h3>
-        <p>Verbrauchs- und Erzeugungsdaten aus PV, BHKW, Wärmepumpe oder Biomasse werden erfasst, visualisiert und für Entscheidungen nutzbar gemacht.</p>
+        <p>Sehen, was Ihre Anlage wirklich verbraucht — und wann. PV, BHKW, Wärmepumpe, Biomasse: Daten erfasst, visualisiert und als Entscheidungsgrundlage nutzbar gemacht.</p>
       </div>
       <div class="card">
         <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -47,7 +47,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <path class="card-icon-dot" d="M14 9.5l-2.6 4.7h2.1l-1 3.6 3.1-5.1h-2.1z"/>
         </svg>
         <h3>Gebäudeautomation nach §71a GEG</h3>
-        <p>Komplettlösung für die Nachrüstpflicht großer Nichtwohngebäude — von der Messtechnik bis zur Regelung. EU-Novelle senkt die Schwelle perspektivisch auf 70 kW.</p>
+        <p>Gesetzeskonform und wirtschaftlich nachrüsten — aus einer Hand. Komplettlösung von der Messtechnik bis zur Regelung. Die EU-EPBD-Novelle senkt die Schwelle perspektivisch auf 70 kW.</p>
       </div>
       <div class="card">
         <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -57,7 +57,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
         </svg>
         <h3>Quick-Check Energie</h3>
-        <p>2–3 Tage vor Ort, temporäre Messung, Ergebnisbericht mit drei Sofortmaßnahmen — zum Festpreis. Der unkomplizierte Einstieg.</p>
+        <p>Drei konkrete Sofortmaßnahmen — in 2–3 Tagen, zum Festpreis. Temporäre Messung vor Ort, Ergebnisbericht, kein langes Vorlaufprojekt. Der unkomplizierte Einstieg.</p>
       </div>
     </div>
   </div>
@@ -80,8 +80,8 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
     <div class="ueber-grid">
       <div>
         <h2>Wer optimiert</h2>
-        <p>Mein Name ist Jörg Wünnenberg. Ich bin Dipl.-Ing. (FH) für Elektrotechnik mit Schwerpunkt Energieerzeugung und -verteilung, begonnen als Mess- und Regelmechaniker in der chemischen Industrie. <strong>Seit 2003</strong> führe ich mein eigenes Ingenieurbüro in Staufen im Breisgau.</p>
         <p>Was mich von reinen Beratern und reinen Automatisierern unterscheidet: Ich mache beides. Energieaudit nach DIN EN 16247 und BAFA-Antrag. SPS-Programmierung und Schaltschrankbau. Inbetriebnahme und Monitoring. Genau an der Lücke, an der sonst Beratungsberichte und Umsetzung auseinanderfallen.</p>
+        <p>Mein Name ist Jörg Wünnenberg — Dipl.-Ing. (FH) Elektrotechnik, begonnen als Mess- und Regelmechaniker in der chemischen Industrie. <strong>Seit 2003</strong> führe ich mein eigenes Ingenieurbüro in Staufen im Breisgau.</p>
 
         <h3>Anerkannt und gelistet</h3>
         <ul class="badges">
@@ -105,7 +105,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
 <section id="referenzen">
   <div class="container">
     <h2>Referenzen</h2>
-    <p class="section-lede">Gewerbe, Campingplätze, Sparkassen, Industrie — vom Kindergarten bis zur Trainingsanlage im Bereich Wasser- und Ölwirtschaft in der Schweiz.</p>
+    <p class="section-lede">Projekte seit 2003, quer durch Branchen und Größenklassen — von Gewerbe, Campingplätzen und Sparkassen bis zur Trainingsanlage in der Schweizer Wasser- und Ölwirtschaft.</p>
     <ul class="ref-list">
       {% for r in site.data.referenzen %}
       <li>

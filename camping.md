@@ -64,7 +64,7 @@ service:
 <section>
   <div class="container">
     <h2>Wie ich vorgehe</h2>
-    <p class="section-lede">Vier Schritte, die aufeinander aufbauen. Kein Beratungsbericht, der anschließend in der Schublade verschwindet.</p>
+    <p class="section-lede">Kein Beratungsbericht, der in der Schublade verschwindet — vier Schritte, die zur Umsetzung führen.</p>
     <ol class="steps steps-with-icons">
       <li>
         <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -140,7 +140,7 @@ service:
 <section>
   <div class="container">
     <h2>Einstieg: Quick-Check Energie</h2>
-    <p class="section-lede">2–3 Tage vor Ort, temporäre Messung zentraler Energieflüsse, Ergebnisbericht mit drei konkreten Sofortmaßnahmen. Festpreis, klar umrissen — der Weg, um ohne großes Risiko anzufangen.</p>
+    <p class="section-lede">Drei konkrete Sofortmaßnahmen in 2–3 Tagen — Festpreis, klar umrissen. Temporäre Messung zentraler Energieflüsse und Ergebnisbericht ohne langes Vorlaufprojekt.</p>
     <p>Einen Überblick über das gesamte Leistungsspektrum — von Energieaudit und BAFA-Antrag bis zu Gebäudeautomation und SPS-Programmierung — finden Sie unter <a href="/#leistungen">Leistungen</a>. Weitere Einsatzfelder sind unter <a href="/#branchen">Branchen</a> verlinkt.</p>
   </div>
 </section>
