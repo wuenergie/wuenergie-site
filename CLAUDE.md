@@ -123,7 +123,7 @@ Branchenseite ein Spoke. Eine neue Branche besteht aus **zwei** Artefakten:
    - Typische Schmerzpunkte (`.pain-list`)
    - Vorgehen (`.steps` mit 4 Schritten, branchen­spezifisch formuliert)
    - Branchen-Referenzen (`.ref-list`)
-   - Quick-Check als Einstieg mit Querlinks auf `/#leistungen` und `/#branchen`
+   - Start-Paket als Einstieg mit Querlinks auf `/#leistungen` und `/#branchen`
    - `{% include cta.html %}`
 2. **Eintrag in `_data/branchen.yml`** mit `slug`, `url` und `name`. Erst damit
    erscheint der Branchen-Button in der Startseiten-Sektion „Für Ihre Branche".

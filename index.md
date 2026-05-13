@@ -56,7 +56,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <rect class="card-icon-fg" x="9" y="3" width="6" height="3.5" rx="1"/>
           <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
         </svg>
-        <h3>Quick-Check Energie</h3>
+        <h3>Start-Paket</h3>
         <p>Vor-Ort-Messung und Statusaufnahme in 2–3 Tagen — zum Festpreis. Konkrete Handlungsempfehlungen, kein langes Vorlaufprojekt. Der unkomplizierte Einstieg.</p>
       </div>
     </div>

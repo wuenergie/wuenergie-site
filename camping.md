@@ -139,7 +139,7 @@ service:
 
 <section>
   <div class="container">
-    <h2>Einstieg: Quick-Check Energie</h2>
+    <h2>Einstieg: Start-Paket</h2>
     <p class="section-lede">Drei konkrete Sofortmaßnahmen in 2–3 Tagen — Festpreis, klar umrissen. Temporäre Messung zentraler Energieflüsse und Ergebnisbericht ohne langes Vorlaufprojekt.</p>
     <p>Einen Überblick über das gesamte Leistungsspektrum — von Energieaudit und BAFA-Antrag bis zu Gebäudeautomation und SPS-Programmierung — finden Sie unter <a href="/#leistungen">Leistungen</a>. Weitere Einsatzfelder sind unter <a href="/#branchen">Branchen</a> verlinkt.</p>
   </div>
