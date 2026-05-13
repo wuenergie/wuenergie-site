@@ -19,7 +19,7 @@ ust_idnr: DE231784739
 booking_url: https://app.cal.eu/joerg-wuennenberg/30min
 
 # Visuelle Identität (zentrale Quelle — wird in head.html / manifest referenziert)
-theme_color: "#1A9B4F"
+theme_color: "#2D8A52"
 og_image: /assets/og-image.png
 apple_touch_icon: /assets/apple-touch-icon.png
 

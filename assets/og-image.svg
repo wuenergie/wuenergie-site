@@ -8,7 +8,7 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <g transform="translate(80 80)">
-    <rect width="180" height="180" rx="36" fill="#1A9B4F"/>
+    <rect width="180" height="180" rx="36" fill="#2D8A52"/>
     <path d="M 33.75 50.625 h 22.5 l 16.875 50.625 l 16.875 -39.375 l 16.875 39.375 l 16.875 -50.625 h 22.5 l -28.125 78.75 h -22.5 l -11.25 -28.125 l -11.25 28.125 h -22.5 z" fill="#FDF7EC"/>
   </g>
 
@@ -22,5 +22,5 @@
     <text x="80" y="545" font-size="24" fill="#5B5B5B">Messen. Analysieren. Optimieren. Umsetzen.</text>
   </g>
 
-  <rect x="0" y="600" width="1200" height="30" fill="#1A9B4F"/>
+  <rect x="0" y="600" width="1200" height="30" fill="#2D8A52"/>
 </svg>
