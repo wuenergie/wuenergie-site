@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="WuEnergie — Ing.-Büro Jörg Wünnenberg">
   <defs>
     <radialGradient id="bg" cx="85%" cy="15%" r="70%">
-      <stop offset="0%" stop-color="#E8F1F1"/>
-      <stop offset="100%" stop-color="#FDF7EC"/>
+      <stop offset="0%" stop-color="#E6EEF9"/>
+      <stop offset="100%" stop-color="#F0F6F2"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <g transform="translate(80 80)">
-    <rect width="180" height="180" rx="36" fill="#2B7D80"/>
+    <rect width="180" height="180" rx="36" fill="#1A9B4F"/>
     <path d="M 33.75 50.625 h 22.5 l 16.875 50.625 l 16.875 -39.375 l 16.875 39.375 l 16.875 -50.625 h 22.5 l -28.125 78.75 h -22.5 l -11.25 -28.125 l -11.25 28.125 h -22.5 z" fill="#FDF7EC"/>
   </g>
 
@@ -18,9 +18,9 @@
   </g>
 
   <g font-family="-apple-system, Segoe UI, Roboto, sans-serif">
-    <text x="80" y="500" font-size="30" fill="#1F5A5C" font-weight="600">Energieberatung und Anlagentechnik — aus einer Hand.</text>
+    <text x="80" y="500" font-size="30" fill="#154BA0" font-weight="600">Energieberatung und Anlagentechnik — aus einer Hand.</text>
     <text x="80" y="545" font-size="24" fill="#5B5B5B">Messen. Analysieren. Optimieren. Umsetzen.</text>
   </g>
 
-  <rect x="0" y="600" width="1200" height="30" fill="#2B7D80"/>
+  <rect x="0" y="600" width="1200" height="30" fill="#1A9B4F"/>
 </svg>
