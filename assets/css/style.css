@@ -1,12 +1,15 @@
 :root {
-  --c-accent: #2B7D80;
-  --c-accent-dark: #1F5A5C;
-  --c-accent-soft: #E8F1F1;
-  --c-bg: #EDF7F7;
+  --c-accent: #1A9B4F;
+  --c-accent-dark: #147840;
+  --c-accent-soft: #E3F5EB;
+  --c-blue: #1B5DB8;
+  --c-blue-dark: #154BA0;
+  --c-blue-soft: #E6EEF9;
+  --c-bg: #F0F6F2;
   --c-surface: #FFFFFF;
   --c-ink: #1A1A1A;
   --c-muted: #5B5B5B;
-  --c-border: #D0E4E4;
+  --c-border: #C8D9D0;
 
   --font-sans: "Aptos", "Seravek", "Segoe UI Variable Text", "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
   --font-display: "Aptos Display", "Aptos", "Seravek", "Segoe UI Variable Display", "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
@@ -61,11 +64,11 @@ h3 {
 }
 
 p { margin: 0 0 var(--space-md); max-width: 65ch; text-wrap: pretty; }
-a { color: var(--c-accent-dark); text-underline-offset: 3px; }
-a:hover { color: var(--c-accent); }
+a { color: var(--c-blue-dark); text-underline-offset: 3px; }
+a:hover { color: var(--c-blue); }
 
 :focus-visible {
-  outline: 2px solid var(--c-accent);
+  outline: 2px solid var(--c-blue);
   outline-offset: 3px;
   border-radius: 2px;
 }
@@ -101,13 +104,11 @@ a:hover { color: var(--c-accent); }
 
 /* Header */
 .site-header {
-  border-bottom: 1px solid var(--c-border);
-  background: rgba(237, 247, 247, 0.85);
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.09);
   position: sticky;
   top: 0;
   z-index: 10;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 .header-inner {
   display: flex;
@@ -139,7 +140,7 @@ a:hover { color: var(--c-accent); }
   font-weight: 500;
   font-size: 0.95rem;
 }
-.site-nav a:hover { color: var(--c-accent); }
+.site-nav a:hover { color: var(--c-blue); }
 @media (max-width: 640px) {
   html { scroll-padding-top: 6.5rem; }
   .header-inner {
@@ -242,7 +243,7 @@ section + section { border-top: 1px solid var(--c-border); }
 }
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(43, 125, 128, 0.14);
+  box-shadow: 0 10px 30px rgba(27, 93, 184, 0.15);
 }
 .card h3 { margin-top: 0; }
 .card p { margin-bottom: 0; color: var(--c-muted); }
@@ -261,15 +262,15 @@ section + section { border-top: 1px solid var(--c-border); }
   display: block;
   margin: 0 auto var(--space-md);
 }
-.card-icon-bg { fill: var(--c-accent-soft); }
+.card-icon-bg { fill: var(--c-blue-soft); }
 .card-icon-fg {
   fill: none;
-  stroke: var(--c-accent);
+  stroke: var(--c-blue);
   stroke-width: 0.9;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.card-icon-dot { fill: var(--c-accent); }
+.card-icon-dot { fill: var(--c-blue); }
 
 /* Referenzen-Liste */
 .ref-list {
@@ -291,7 +292,7 @@ section + section { border-top: 1px solid var(--c-border); }
 }
 .ref-name { font-weight: 600; }
 .ref-cat {
-  color: var(--c-accent-dark);
+  color: var(--c-blue-dark);
   font-size: 0.875rem;
   white-space: nowrap;
   font-weight: 500;
@@ -338,9 +339,9 @@ section + section { border-top: 1px solid var(--c-border); }
 }
 .badges li a {
   display: inline-block;
-  background: var(--c-accent-soft);
-  color: var(--c-accent-dark);
-  border: 1px solid var(--c-accent);
+  background: var(--c-blue-soft);
+  color: var(--c-blue-dark);
+  border: 1px solid var(--c-blue);
   padding: 0.4rem 0.875rem;
   border-radius: 999px;
   font-size: 0.9rem;
@@ -348,7 +349,7 @@ section + section { border-top: 1px solid var(--c-border); }
   transition: background 0.15s ease, color 0.15s ease;
 }
 .badges li a:hover {
-  background: var(--c-accent);
+  background: var(--c-blue);
   color: #fff;
 }
 
@@ -441,13 +442,13 @@ section + section { border-top: 1px solid var(--c-border); }
 .landing-hero {
   padding: var(--space-2xl) 0 var(--space-xl);
   background:
-    radial-gradient(ellipse at top left, var(--c-accent-soft) 0%, transparent 55%),
+    radial-gradient(ellipse at top left, var(--c-blue-soft) 0%, transparent 55%),
     var(--c-bg);
 }
 .overline {
   display: inline-block;
   font-size: 0.8rem;
-  color: var(--c-accent-dark);
+  color: var(--c-blue-dark);
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -517,7 +518,7 @@ section + section { border-top: 1px solid var(--c-border); }
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--c-accent);
+  color: #5ECC85;
   margin-bottom: var(--space-md);
 }
 .roi-stats {
