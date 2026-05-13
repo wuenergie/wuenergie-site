@@ -75,6 +75,7 @@ a:hover { color: var(--c-blue); }
 .btn:focus-visible {
   outline-offset: 4px;
 }
+.site-header a:focus-visible,
 .cta a:focus-visible,
 .site-footer a:focus-visible {
   outline-color: #fff;
@@ -104,8 +105,8 @@ a:hover { color: var(--c-blue); }
 
 /* Header */
 .site-header {
-  background: #FFFFFF;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.09);
+  background: var(--c-accent);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -127,7 +128,7 @@ a:hover { color: var(--c-blue); }
   font-size: 1.25rem;
   font-weight: 600;
   text-decoration: none;
-  color: var(--c-ink);
+  color: #fff;
 }
 .site-nav {
   display: flex;
@@ -136,11 +137,11 @@ a:hover { color: var(--c-blue); }
 }
 .site-nav a {
   text-decoration: none;
-  color: var(--c-ink);
+  color: rgba(255, 255, 255, 0.88);
   font-weight: 500;
   font-size: 0.95rem;
 }
-.site-nav a:hover { color: var(--c-blue); }
+.site-nav a:hover { color: #fff; }
 @media (max-width: 640px) {
   html { scroll-padding-top: 6.5rem; }
   .header-inner {
