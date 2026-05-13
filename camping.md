@@ -14,7 +14,7 @@ service:
 <section class="landing-hero">
   <div class="container">
     <span class="overline">Branche · Campingplätze &amp; Freizeitparks</span>
-    <h1>Nahwärme auf Campingplätzen — messbar effizient&nbsp;betreiben.</h1>
+    <h1>Energieverteilung auf Campingplätzen — messbar effizient&nbsp;betreiben.</h1>
     <p class="hero-lede">Saisonale Lastspitzen, schwankende Belegung, teure Wärmeverluste: Ich messe, analysiere und optimiere direkt am Platz — mit Ergebnissen, die Sie pro Saison nachvollziehen können.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="mailto:{{ site.data.site.email }}?subject=Anfrage%20Campingplatz">E-Mail schreiben</a>

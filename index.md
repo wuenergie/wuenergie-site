@@ -17,7 +17,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
 
 <section id="leistungen">
   <div class="container">
-    <h2>Was ich für Sie tue</h2>
+    <h2>Wie ich Ihnen weiterhelfe</h2>
     <p class="section-lede">Messtechnik und Umsetzung aus einer Hand — vom ersten Messaufbau bis zur laufenden Optimierung im Betrieb.</p>
     <div class="cards">
       <div class="card">
@@ -93,7 +93,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
       </div>
       <img
         src="/assets/portrait.jpg"
-        alt="Jörg Wünnenberg vor einem Steuerungsschrank"
+        alt="Jörg Wünnenberg vor einem Schaltschrank"
         class="ueber-portrait"
         width="300"
         height="400"
@@ -106,7 +106,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
 <section id="referenzen">
   <div class="container">
     <h2>Referenzen</h2>
-    <p class="section-lede">Projekte seit 2003, quer durch Branchen und Größenklassen — von Gewerbe, Campingplätzen und Sparkassen bis zur Trainingsanlage in der Schweizer Wasser- und Ölwirtschaft.</p>
+    <p class="section-lede">Projekte seit 2003, quer durch Branchen und Größenklassen — von Gewerbe, Campingplätzen und Sparkassen bis zu Wasseraufbereitungen und Kläranlage.</p>
     <ul class="ref-list">
       {% for r in site.data.referenzen %}
       <li>
