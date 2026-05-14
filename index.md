@@ -6,6 +6,10 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
 
 <section class="hero">
   <div class="container">
+    <div class="savings-badge" aria-hidden="true">
+      <span class="savings-badge-top">Jährliche Einsparung Ihrer Energiekosten</span>
+      <span class="savings-badge-value">10–30%</span>
+    </div>
     <h1>Energie sichtbar, steuerbar und&nbsp;wirtschaftlich.</h1>
     <p class="hero-lede">{{ site.data.site.kernsatz }}</p>
     <div class="hero-actions">
