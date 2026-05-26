@@ -2,6 +2,8 @@
   --c-accent: #009EAB;
   --c-accent-dark: #007A85;
   --c-accent-soft: #E0F6F8;
+  --c-green: #5ECC85;
+  --c-green-dark: #1B7A3E;
   --c-blue: #1B5DB8;
   --c-blue-dark: #154BA0;
   --c-blue-soft: #E6EEF9;
@@ -369,7 +371,7 @@ section + section { border-top: 1px solid var(--c-border); }
 }
 .ref-name { font-weight: 600; }
 .ref-cat {
-  color: var(--c-accent-dark);
+  color: var(--c-green-dark);
   font-size: 0.875rem;
   white-space: nowrap;
   font-weight: 500;
@@ -525,7 +527,7 @@ section + section { border-top: 1px solid var(--c-border); }
 .overline {
   display: inline-block;
   font-size: 0.8rem;
-  color: var(--c-blue-dark);
+  color: var(--c-green-dark);
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -600,7 +602,7 @@ section + section { border-top: 1px solid var(--c-border); }
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #5ECC85;
+  color: var(--c-green);
   margin-bottom: var(--space-md);
 }
 .roi-stats {
