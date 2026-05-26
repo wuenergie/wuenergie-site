@@ -371,10 +371,14 @@ section + section { border-top: 1px solid var(--c-border); }
 }
 .ref-name { font-weight: 600; }
 .ref-cat {
-  color: var(--c-green-dark);
-  font-size: 0.875rem;
+  background: var(--c-green-dark);
+  color: #fff;
+  font-size: 0.8rem;
   white-space: nowrap;
-  font-weight: 500;
+  font-weight: 600;
+  padding: 0.2rem 0.625rem;
+  border-radius: 999px;
+  align-self: center;
 }
 .ref-desc {
   grid-column: 1 / -1;
@@ -532,6 +536,9 @@ section + section { border-top: 1px solid var(--c-border); }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
+}
+.hero .overline {
+  color: var(--c-green);
 }
 
 /* Schmerzpunkte-Liste */
