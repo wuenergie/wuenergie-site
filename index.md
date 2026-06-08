@@ -94,8 +94,8 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
         src="/assets/portrait.jpg"
         alt="Jörg Wünnenberg vor einem Schaltschrank"
         class="ueber-portrait"
-        width="300"
-        height="400"
+        width="480"
+        height="641"
         loading="lazy"
       >
     </div>
