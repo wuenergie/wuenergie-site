@@ -142,6 +142,7 @@ service:
     <h2>Einstieg: Start-Paket</h2>
     <p class="section-lede">Drei konkrete Sofortmaßnahmen in 2–3 Tagen — Festpreis, klar umrissen. Temporäre Messung zentraler Energieflüsse und Ergebnisbericht ohne langes Vorlaufprojekt.</p>
     <p>Einen Überblick über das gesamte Leistungsspektrum — von Energieaudit und BAFA-Antrag bis zu Gebäudeautomation und SPS-Programmierung — finden Sie unter <a href="/#leistungen">Leistungen</a>. Weitere Einsatzfelder sind unter <a href="/#branchen">Branchen</a> verlinkt.</p>
+    <p class="fine-print">Festpreis gilt für Standardinstallationen bis 3 Zählpunkte im Niederspannungsnetz. Abweichende Anlagenstrukturen, erhöhter Verkabelungsaufwand oder zusätzliche Messpunkte werden im Rahmen eines kostenlosen Erstgesprächs geprüft und individuell angeboten. Preisstand: 2026.</p>
   </div>
 </section>
 
