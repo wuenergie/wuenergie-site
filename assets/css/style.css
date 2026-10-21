@@ -616,6 +616,7 @@ section + section { border-top: 1px solid var(--c-border); }
   text-transform: uppercase;
   color: var(--c-green);
   margin-bottom: var(--space-md);
+  max-width: none;
 }
 .roi-stats {
   display: grid;

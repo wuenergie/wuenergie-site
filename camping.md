@@ -131,7 +131,7 @@ service:
       <li>
         <span class="ref-name">Kagelbusch, Bliesdorf</span>
         <span class="ref-cat">Campingplatz</span>
-        <span class="ref-desc">Beratung und technische Begleitung für den Platzbetrieb.</span>
+        <span class="ref-desc">Beratung und technische Begleitung für den Platzbetrieb. Effiziente Wärmeversorgung durch Vorrangschaltung: Die Solarthermie deckt den Bedarf, solange sie genug Wärme liefert — das BHKW springt erst ein, wenn die Sonne nicht ausreicht.</span>
       </li>
     </ul>
   </div>
