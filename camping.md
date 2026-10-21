@@ -143,7 +143,7 @@ service:
     <span class="overline">Einstieg</span>
     <p class="section-lede">Drei konkrete Sofortmaßnahmen in 2–3 Tagen — Festpreis, klar umrissen. Temporäre Messung zentraler Energieflüsse und Ergebnisbericht ohne langes Vorlaufprojekt.</p>
     <span class="overline">Konditionen und Leistungsumfang</span>
-    <p class="fine-print">Festpreis gilt für Standardinstallationen bis 4 Zählpunkte (elektrische Energie) im Niederspannungsnetz. Für die Inbetriebnahme steht ein Tag zur Verfügung, inklusive An- und Abreise. Abweichende Anlagenstrukturen, erhöhter Verkabelungsaufwand oder zusätzliche Messpunkte werden im Rahmen eines kostenlosen Erstgesprächs geprüft und individuell angeboten. Preisstand: 2026.</p>
+    <p class="section-lede">Festpreis gilt für Standardinstallationen bis 4 Zählpunkte (elektrische Energie) im Niederspannungsnetz. Für die Inbetriebnahme steht ein Tag zur Verfügung, inklusive An- und Abreise. Abweichende Anlagenstrukturen, erhöhter Verkabelungsaufwand oder zusätzliche Messpunkte werden im Rahmen eines kostenlosen Erstgesprächs geprüft und individuell angeboten. Preisstand: 2026.</p>
   </div>
 </section>
 
