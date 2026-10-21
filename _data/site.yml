@@ -16,7 +16,7 @@ telefon: "+49 151 1948 2222"
 telefon_tel: "+4915119482222"
 email: jw@wuennenberg.org
 ust_idnr: DE231784739
-booking_url: https://app.cal.eu/joerg-wuennenberg/30min
+booking_url: https://cal.com/jw-wuennenberg.org/30min
 
 # Visuelle Identität (zentrale Quelle — wird in head.html / manifest referenziert)
 theme_color: "#2D8A52"
