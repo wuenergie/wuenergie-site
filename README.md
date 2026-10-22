@@ -14,6 +14,7 @@ Alle Inhalte liegen als Markdown und YAML im Repo:
 | `_data/referenzen.yml` | Liste aller Referenzen                                       |
 | `index.md`             | Startseite (`/`)                                             |
 | `camping.md`           | Landingpage Campingplätze (`/camping/`)                      |
+| `klarblick-paket.md`   | Klarblick-Paket: Ablauf & Konditionen (`/klarblick-paket/`)  |
 | `impressum.md`         | Impressum (`/impressum/`)                                    |
 | `datenschutz.md`       | Datenschutz (`/datenschutz/`)                                |
 

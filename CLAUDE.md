@@ -75,6 +75,7 @@ _includes/
 assets/css/style.css   Eine CSS-Datei, das war's
 index.md               Startseite
 camping.md             /camping — Landing für Campingplätze
+klarblick-paket.md     /klarblick-paket — Einstiegsangebot (Ablauf, Aufgabenteilung, Konditionen)
 impressum.md           /impressum
 datenschutz.md         /datenschutz
 CNAME                  wuenergie.de
@@ -123,7 +124,9 @@ Branchenseite ein Spoke. Eine neue Branche besteht aus **zwei** Artefakten:
    - Typische Schmerzpunkte (`.pain-list`)
    - Vorgehen (`.steps` mit 4 Schritten, branchen­spezifisch formuliert)
    - Branchen-Referenzen (`.ref-list`)
-   - Klarblick-Paket als Einstieg (ohne Querlinks auf `/#leistungen` / `/#branchen` — bewusst entfernt)
+   - Klarblick-Paket als Einstieg: kurzer, branchenspezifischer Teaser + Button
+     auf `/klarblick-paket/` (Ablauf und Konditionen stehen nur dort, nicht duplizieren;
+     keine Querlinks auf `/#leistungen` / `/#branchen` — bewusst entfernt)
    - `{% include cta.html %}`
 2. **Eintrag in `_data/branchen.yml`** mit `slug`, `url` und `name`. Erst damit
    erscheint der Branchen-Button in der Startseiten-Sektion „Für Ihre Branche".

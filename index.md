@@ -62,7 +62,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
         </svg>
         <h3>Klarblick-Paket</h3>
-        <p>Vor-Ort-Messung und Statusaufnahme in 2–3 Tagen — zum Festpreis. Konkrete Handlungsempfehlungen, kein langes Vorlaufprojekt. Der unkomplizierte Einstieg.</p>
+        <p>Energiemonitoring zum Festpreis: bis zu 4 Messpunkte, ein Tag Inbetriebnahme, Software-Lizenz für ein Jahr inklusive. Der unkomplizierte Einstieg. <a href="/klarblick-paket/">So läuft’s ab →</a></p>
       </div>
     </div>
   </div>

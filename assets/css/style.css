@@ -567,6 +567,14 @@ section + section { border-top: 1px solid var(--c-border); }
   font-weight: 700;
 }
 
+/* Zweispaltige Gegenüberstellung (z. B. „Wer übernimmt was") */
+.split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: var(--space-md) var(--space-lg);
+}
+.split h3 { margin-top: 0; }
+
 /* Schritte */
 .steps {
   display: grid;
