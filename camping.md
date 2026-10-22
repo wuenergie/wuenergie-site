@@ -139,7 +139,7 @@ service:
 
 <section>
   <div class="container">
-    <h2>Start-Paket</h2>
+    <h2>Klarblick-Paket</h2>
     <span class="overline">Einstieg</span>
     <p class="section-lede">Drei konkrete Sofortmaßnahmen in 2–3 Tagen — Festpreis, klar umrissen. Temporäre Messung zentraler Energieflüsse und Ergebnisbericht ohne langes Vorlaufprojekt.</p>
     <span class="overline">Konditionen und Leistungsumfang</span>
