@@ -141,7 +141,7 @@ service:
   <div class="container">
     <h2>Klarblick-Paket</h2>
     <span class="overline">Einstieg</span>
-    <p class="section-lede">Dauerhaftes Energiemonitoring zum Festpreis — auf Campingplätzen typischerweise an Hauptanschluss, Sanitärgebäude, Rezeption und Stellplatzversorgung. Ein Tag Inbetriebnahme, Software-Lizenz für 12 Monate inklusive. So sehen Sie, welcher Bereich in Haupt- und Nebensaison wie viel verbraucht.</p>
+    <p class="section-lede">Dauerhaftes Energiemonitoring zum Festpreis — auf Campingplätzen typischerweise an Hauptanschluss, Sanitärgebäude, Rezeption und Stellplatzversorgung. Ein Tag Inbetriebnahme; Lizenz- und Betriebskosten für das Online-Portal sind 12 Monate inklusive. So sehen Sie, welcher Bereich in Haupt- und Nebensaison wie viel verbraucht.</p>
     <a class="btn btn-secondary" href="/klarblick-paket/">Ablauf und Konditionen <span aria-hidden="true">→</span></a>
   </div>
 </section>

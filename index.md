@@ -33,7 +33,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <circle class="card-icon-dot" cx="12" cy="17" r="1.5"/>
         </svg>
         <h3>Energiesystem-Analyse</h3>
-        <p>Wissen, wo Energie verloren geht — und was eine Verbesserung wirklich bringt. Vollständige Abbildung von Erzeugung, Speicherung, Verteilung und Verbrauch mit Wirtschaftlichkeits- und CO₂-Bewertung.</p>
+        <p>Wissen, wo Energie verloren geht — und was eine Verbesserung wirklich bringt. Vollständige Abbildung von Erzeugung, Speicherung, Verteilung und Verbrauch mit Wirtschaftlichkeitsbewertung.</p>
       </div>
       <div class="card">
         <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -62,7 +62,7 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
           <path class="card-icon-fg" d="M9 13.5l2 2 4-5"/>
         </svg>
         <h3>Klarblick-Paket</h3>
-        <p>Energiemonitoring zum Festpreis: bis zu 4 Messpunkte, ein Tag Inbetriebnahme, Software-Lizenz für ein Jahr inklusive. Der unkomplizierte Einstieg. <a href="/klarblick-paket/">So läuft’s ab →</a></p>
+        <p>Energiemonitoring zum Festpreis: bis zu 4 Messpunkte, ein Tag Inbetriebnahme, Lizenz- und Betriebskosten für das Online-Portal im ersten Jahr inklusive. Der unkomplizierte Einstieg. <a href="/klarblick-paket/">So läuft’s ab →</a></p>
       </div>
     </div>
   </div>
