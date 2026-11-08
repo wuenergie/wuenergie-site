@@ -1,21 +1,21 @@
 ---
 layout: landing
 permalink: /klarblick-paket/
-title: Klarblick-Paket — Energiemonitoring zum Festpreis
-description: Energiemonitoring zum Festpreis — bis 4 Messpunkte, Inbetriebnahme an einem Tag, LTE-Router sowie Lizenz- und Betriebskosten für das Online-Portal im ersten Jahr inklusive. So läuft Ihr Projekt ab.
+title: Klarblick-Paket — Energiemonitoring zum Basis-Preis
+description: Energiemonitoring zum Basis-Preis — bis 4 Messpunkte, Inbetriebnahme an einem Tag, LTE-Router sowie Lizenz- und Betriebskosten für das Online-Portal im ersten Jahr inklusive. So läuft Ihr Projekt ab.
 breadcrumb: Klarblick-Paket
 service:
   name: Klarblick-Paket — Energiemonitoring
   type: Energiemonitoring
   audience: Betreiber von Gewerbeobjekten, Campingplätzen, Hotels und Produktionsbetrieben
-  description: Einstieg ins Energiemonitoring zum Festpreis — Messkonzept, Inbetriebnahme von bis zu 4 Zählpunkten, LTE-Router sowie Lizenz- und Betriebskosten für das Online-Portal im ersten Jahr.
+  description: Einstieg ins Energiemonitoring zum Basis-Preis — Messkonzept, Inbetriebnahme von bis zu 4 Zählpunkten, LTE-Router sowie Lizenz- und Betriebskosten für das Online-Portal im ersten Jahr.
 ---
 
 <section class="landing-hero">
   <div class="container">
     <span class="overline">Einstieg · Energiemonitoring</span>
     <h1>Klarblick-Paket — sehen, wo Ihre Energie&nbsp;bleibt.</h1>
-    <p class="hero-lede">Ich richte an bis zu vier Messpunkten ein dauerhaftes Energiemonitoring ein — zum Festpreis, mit einem Tag vor Ort. Ab dem ersten Abend sehen Sie live, wann und wo Strom verbraucht wird. Die Lizenz- und Betriebskosten für das Online-Portal sind im ersten Jahr enthalten.</p>
+    <p class="hero-lede">Ich richte an bis zu vier Messpunkten ein dauerhaftes Energiemonitoring ein — zum Basis-Preis, mit einem Tag vor Ort. Ab dem ersten Abend sehen Sie live, wann und wo Strom verbraucht wird. Die Lizenz- und Betriebskosten für das Online-Portal sind im ersten Jahr enthalten.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="mailto:{{ site.data.site.email }}?subject=Anfrage%20Klarblick-Paket">E-Mail schreiben</a>
       <a class="btn btn-secondary" href="{{ site.data.site.booking_url }}" rel="noopener" target="_blank">30-Min-Gespräch buchen</a>
@@ -81,8 +81,8 @@ service:
 <section>
   <div class="container">
     <h2>Konditionen und Leistungsumfang</h2>
-    <p class="section-lede">Der Festpreis gilt für Standardinstallationen bis 4 Zählpunkte (elektrische Energie) im Niederspannungsnetz. Enthalten sind Messkonzept, Zähler, LTE-Router, ein Tag Inbetriebnahme inklusive An- und Abreise sowie für 12 Monate die Lizenz- und Betriebskosten für das Online-Portal. Regelmäßige Auswertungsberichte sind derzeit ebenfalls enthalten. Eine von mir bereitgestellte SIM-Karte wird gesondert berechnet. Nach dem ersten Jahr kann der Portalzugang optional verlängert werden.</p>
-    <p class="section-lede">Abweichende Anlagenstrukturen, erhöhter Verkabelungsaufwand oder zusätzliche Messpunkte — auch für Wasser oder Wärme — prüfe ich im kostenlosen Erstgespräch und biete sie individuell an. Den Festpreis nenne ich Ihnen gern auf Anfrage. Preisstand: 2026.</p>
+    <p class="section-lede">Der Basis-Preis gilt für Standardinstallationen bis 4 Zählpunkte (elektrische Energie) im Niederspannungsnetz. Enthalten sind Messkonzept, Zähler, LTE-Router, ein Tag Inbetriebnahme inklusive An- und Abreise sowie für 12 Monate die Lizenz- und Betriebskosten für das Online-Portal. Regelmäßige Auswertungsberichte sind derzeit ebenfalls enthalten. Eine von mir bereitgestellte SIM-Karte wird gesondert berechnet. Nach dem ersten Jahr kann der Portalzugang optional verlängert werden.</p>
+    <p class="section-lede">Abweichende Anlagenstrukturen, erhöhter Verkabelungsaufwand oder zusätzliche Messpunkte — auch für Wasser oder Wärme — prüfe ich im kostenlosen Erstgespräch und biete sie individuell an. Den Basis-Preis nenne ich Ihnen gern auf Anfrage. Preisstand: 2026.</p>
   </div>
 </section>
 
