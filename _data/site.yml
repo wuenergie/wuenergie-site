@@ -41,7 +41,7 @@ leistungen:
   - name: Vor-Ort-Statusaufnahme und Energiefluss-Analyse
     beschreibung: Begehung und messtechnische Erfassung des Ist-Zustands von Anlage und Objekt — Grundlage für Optimierung und normkonforme Auswertung.
   - name: Energieaudit DIN EN 16247 (in Kooperation)
-    beschreibung: Vor-Ort-Begehung und Messdatenerfassung durch Ing.-Büro Wünnenberg Staufen; Auswertung, Bericht und Förderantrag durch ib-wuennenberg.org.
+    beschreibung: Vor-Ort-Begehung und Messdatenerfassung durch Ing.-Büro Wünnenberg Staufen; Auswertung, Bericht und Förderantrag durch das Ingenieur-Büro für Energieeffizienz & Umwelttechnik (ib-wuennenberg.de).
   - name: Gebäudeautomation nach §71a GEG
     beschreibung: Nachrüstung großer Nichtwohngebäude mit Mess-, Steuer- und Regelungstechnik — gesetzeskonform und wirtschaftlich.
   - name: SPS-Programmierung
@@ -56,6 +56,18 @@ qualifikationen:
     url: https://www.deutsches-energieberaternetzwerk.de/
   - name: KEFF+ Baden-Württemberg
     url: https://keffplus-bw.de/
+
+# Netzwerkpartner — erscheinen auf der Startseite im Abschnitt „Über mich" unter „Mein Netzwerk".
+netzwerk:
+  - name: Ingenieur-Büro für Energieeffizienz & Umwelttechnik
+    url: https://www.ib-wuennenberg.de
+    leistung: Energieaudit nach DIN EN 16247, Auswertung, Bericht und BAFA-Förderanträge
+  - name: ecc – energy consulting circle
+    url: https://www.ecc-energieeffizienz.de
+    leistung: Energieberatung und Contracting
+  - name: ELH Südbaden
+    url: https://www.elh-suedbaden.com
+    leistung: Elektroinstallation und Ausführung im Großraum Freiburg
 
 partner_marke:
   name: Ingenieurbüro Jörg Wünnenberg

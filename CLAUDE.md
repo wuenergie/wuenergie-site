@@ -19,7 +19,7 @@ Schaltschrankbau, Gebäudeautomation, Monitoring.
 
 Für **Energieaudit nach DIN EN 16247** und **BAFA-Förderanträge** gilt ein
 **Kooperationsmodell**: Jörg übernimmt Vor-Ort-Begehung und Messdatenaufnahme,
-sein Bruder (Ing.-Büro Wünnenberg, www.ib-wuennenberg.org) erstellt Bericht
+sein Bruder (Ingenieur-Büro für Energieeffizienz & Umwelttechnik, www.ib-wuennenberg.de) erstellt Bericht
 und Antrag. Texte nie so formulieren, als würde Jörg das Audit/den Antrag
 allein durchführen.
 
