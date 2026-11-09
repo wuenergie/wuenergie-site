@@ -64,7 +64,15 @@ netzwerk:
     leistung: Energieaudit nach DIN EN 16247, Auswertung, Bericht und BAFA-Förderanträge
   - name: ecc – energy consulting circle
     url: https://www.ecc-energieeffizienz.de
-    leistung: Energieberatung und Contracting
+    # Optional: Logo-Datei in assets/logos/ — wird über dem Namen angezeigt.
+    logo: /assets/logos/ecc.svg
+    leistung: Planung, Umsetzung und Erfolgskontrolle von Energiekonzepten
+    # Optional: Unterpunkte erscheinen als eigene Zeilen mit Aufzählungszeichen.
+    punkte:
+      - Bestandsaufnahme und Entwicklung maßgeschneiderter Energiekonzepte
+      - Wirtschaftlichkeitsbetrachtung und Variantenvergleich
+      - Begleitung der Umsetzung bis zur Inbetriebnahme
+      - Erfolgskontrolle der erzielten Einsparungen im laufenden Betrieb
   - name: ELH Südbaden
     url: https://www.elh-suedbaden.com
     leistung: Elektroinstallation und Ausführung im Großraum Freiburg

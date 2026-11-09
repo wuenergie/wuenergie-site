@@ -566,6 +566,25 @@ section + section { border-top: 1px solid var(--c-border); }
   color: var(--c-accent);
   font-weight: 700;
 }
+.pain-list .partner-logo {
+  width: 120px;
+  height: auto;
+  margin: 0 0 0.4rem;
+}
+.pain-list .sub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 0;
+  display: grid;
+  gap: 0.25rem;
+}
+.pain-list .sub-list li {
+  padding-left: 1.1rem;
+}
+.pain-list .sub-list li::before {
+  content: "•";
+  font-weight: 400;
+}
 
 /* Zweispaltige Gegenüberstellung (z. B. „Wer übernimmt was") */
 .split {
