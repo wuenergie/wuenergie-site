@@ -92,9 +92,16 @@ description: Ingenieurbüro Jörg Wünnenberg in Staufen im Breisgau — Energie
         <p>Formal bin ich Einzelunternehmer, in der Praxis arbeite ich in den meisten Projekten eng mit festen Netzwerkpartnern zusammen. Sie bekommen einen Ansprechpartner, und hinter mir steht ein eingespieltes Team für alles, was ein Projekt braucht.</p>
         <ul class="pain-list">
           {% for p in site.data.site.netzwerk %}
-          <li><a href="{{ p.url }}" rel="noopener" target="_blank"{% if p.logo %} class="partner-link"{% endif %}>
-            {%- if p.logo %}<img class="partner-logo" src="{{ p.logo }}" alt="Logo {{ p.name }}" width="90" height="38" loading="lazy">{% endif -%}
-            <strong>{{ p.name }}</strong></a>{% if p.leistung %}: {{ p.leistung }}{% endif %}
+          {%- if p.logo %}
+          <li class="partner-has-logo"><a href="{{ p.url }}" rel="noopener" target="_blank" class="partner-link">
+            <img class="partner-logo" src="{{ p.logo }}" alt="Logo {{ p.name }}" width="110" height="48" loading="lazy">
+            <strong>{{ p.name }}</strong></a>
+            {%- if p.leistung %}
+            <p class="partner-leistung">{{ p.leistung }}</p>
+            {%- endif %}
+          {%- else %}
+          <li><a href="{{ p.url }}" rel="noopener" target="_blank"><strong>{{ p.name }}</strong></a>{% if p.leistung %}: {{ p.leistung }}{% endif %}
+          {%- endif %}
             {%- if p.punkte %}
             <ul class="sub-list">
               {%- for punkt in p.punkte %}

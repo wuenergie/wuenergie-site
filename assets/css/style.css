@@ -566,14 +566,30 @@ section + section { border-top: 1px solid var(--c-border); }
   color: var(--c-accent);
   font-weight: 700;
 }
+/* Partner mit Logo: kein Pfeil, Logo übernimmt die Rolle des Aufzählungszeichens */
+.pain-list .partner-has-logo {
+  padding-left: 0;
+}
+.pain-list .partner-has-logo::before {
+  content: none;
+}
+.pain-list .partner-leistung {
+  margin: 0.4rem 0 0;
+}
+.pain-list .partner-has-logo .sub-list {
+  margin-left: 1.5rem;
+}
 .pain-list .partner-link {
   display: inline-flex;
   align-items: center;
   gap: 1rem;
 }
 .pain-list .partner-logo {
-  width: 90px;
-  height: auto;
+  /* Einheitlicher Rahmen, damit die Namen bündig stehen — egal welches Seitenverhältnis */
+  width: 110px;
+  height: 48px;
+  object-fit: contain;
+  object-position: left center;
   flex-shrink: 0;
 }
 .pain-list .sub-list {

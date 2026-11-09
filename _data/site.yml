@@ -61,17 +61,21 @@ qualifikationen:
 netzwerk:
   - name: Ingenieur-Büro für Energieeffizienz & Umwelttechnik
     url: https://www.ib-wuennenberg.de
-    leistung: Energieaudit nach DIN EN 16247, Auswertung, Bericht und BAFA-Förderanträge
+    logo: /assets/logos/ib-wuennenberg.png
+    punkte:
+      - Energieberatung KMU (Kleine und mittlere Unternehmen)
+      - Antragstellung beim BAFA
+      - Durchführung der Energieberatung gemäß DIN EN 16247
+      - Begleitung und Beratung bei der Umsetzung von Effizienzmaßnahmen
   - name: ecc – energy consulting circle
     url: https://www.ecc-energieeffizienz.de
     # Optional: Logo-Datei in assets/logos/ — wird links vor dem Namen angezeigt.
     logo: /assets/logos/ecc.svg
     # Optional: Unterpunkte erscheinen als eigene Zeilen mit Aufzählungszeichen.
     punkte:
-      - Bestandsaufnahme und Entwicklung maßgeschneiderter Energiekonzepte
+      - Förderprogramme (Beratung, Antragstellungen)
       - Wirtschaftlichkeitsbetrachtung und Variantenvergleich
-      - Begleitung der Umsetzung bis zur Inbetriebnahme
-      - Erfolgskontrolle der erzielten Einsparungen im laufenden Betrieb
+      - Contracting
   - name: ELH Südbaden
     url: https://www.elh-suedbaden.com
     leistung: Elektroinstallation und Ausführung im Großraum Freiburg
