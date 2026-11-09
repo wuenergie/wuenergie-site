@@ -78,7 +78,10 @@ netzwerk:
       - Contracting
   - name: ELH Südbaden
     url: https://www.elh-suedbaden.com
-    leistung: Elektroinstallation und Ausführung im Großraum Freiburg
+    logo: /assets/logos/elh-suedbaden.svg
+    punkte:
+      - Elektroinstallation
+      - Ausführung im Großraum Freiburg
 
 partner_marke:
   name: Ingenieurbüro Jörg Wünnenberg
