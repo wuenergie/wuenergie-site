@@ -566,10 +566,15 @@ section + section { border-top: 1px solid var(--c-border); }
   color: var(--c-accent);
   font-weight: 700;
 }
+.pain-list .partner-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
 .pain-list .partner-logo {
-  width: 120px;
+  width: 90px;
   height: auto;
-  margin: 0 0 0.4rem;
+  flex-shrink: 0;
 }
 .pain-list .sub-list {
   list-style: none;
