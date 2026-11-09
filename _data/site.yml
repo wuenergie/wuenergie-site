@@ -76,14 +76,13 @@ netzwerk:
       - Förderprogramme (Beratung, Antragstellungen)
       - Wirtschaftlichkeitsbetrachtung und Variantenvergleich
       - Contracting
-  - name: ELH Südbaden
-    url: https://www.elh-suedbaden.com
-    logo: /assets/logos/elh-suedbaden.svg
-    leistung: "Planung und Ausführung von:"
+  - name: Müller GmbH, Freiburg
+    url: https://www.muellergmbh.info
+    logo: /assets/logos/mueller-gmbh.png
     punkte:
-      - Elektroanlagen und -installationen
-      - Heizungsanlagen
-      - Sanitärinstallationen
+      - Elektrotechnik
+      - Gebäudetechnik, Photovoltaik / E-Mobilität
+      - Planung und Projektierung
 
 partner_marke:
   name: Ingenieurbüro Jörg Wünnenberg
